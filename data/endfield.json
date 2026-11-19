@@ -1,0 +1,185 @@
+{
+  "game": "endfield",
+  "updated": "2026-11-18",
+  "events": [
+    {
+      "id": "ef-version",
+      "game": "endfield",
+      "type": "version",
+      "title": "「丹青渡」版本",
+      "subtitle": "核心章节 · 新干员祀 / 明河",
+      "start": "2026-10-15T12:00:00+08:00",
+      "end": "2026-11-25T11:59:00+08:00",
+      "banners": [
+        {
+          "name": "祀",
+          "tag": "6★ · 10/15 – 11/05"
+        },
+        {
+          "name": "明河",
+          "tag": "6★ · 11/05 – 11/25"
+        }
+      ],
+      "image": "data/images/endfield-ef-version-1-594bd4f1.jpg",
+      "gallery": [
+        "data/images/endfield-ef-version-1-594bd4f1.jpg",
+        "data/images/endfield-ef-version-2-5fab9e5b.jpg"
+      ],
+      "details": [
+        "版本维护：2026/10/15 06:00 – 12:00（UTC+8）",
+        "核心章节「丹青渡」自 10/29 起陆续开放",
+        "版本活动：烟火生缘、百趣演武、归野、星河共我、明河作战演练、理智补给、战争回响、密境行者"
+      ],
+      "note": "版本维护 10/15 06:00–12:00；核心章节内容自 10/29 起陆续开放。预计 11/25 版本更新，结束时间以官方公告为准。",
+      "source": "https://endfield.hypergryph.com/news/6094"
+    },
+    {
+      "id": "ef-tangtang",
+      "game": "endfield",
+      "type": "banner",
+      "title": "复刻寻访「汤汤」",
+      "subtitle": "6★ 干员复刻",
+      "start": "2026-10-29T12:00:00+08:00",
+      "end": "2026-11-19T12:00:00+08:00",
+      "banners": [
+        {
+          "name": "汤汤",
+          "tag": "6★ 复刻"
+        }
+      ],
+      "note": "复刻寻访与「丹青渡」版本同步开放。",
+      "source": "https://www.taptap.cn/hashtag/%E5%8D%B1%E6%9C%BA%E5%90%88%E7%BA%A6"
+    },
+    {
+      "id": "ef-minghe",
+      "game": "endfield",
+      "type": "banner",
+      "title": "特许寻访「烟火邀星河」",
+      "subtitle": "6★ 明河",
+      "start": "2026-11-05T12:00:00+08:00",
+      "end": "2026-11-25T11:59:00+08:00",
+      "banners": [
+        {
+          "name": "明河",
+          "tag": "6★ 概率提升"
+        }
+      ],
+      "note": "需完成主线「第一章 · 进程Ⅰ · 基地解围」，开放至版本更新维护前（预计 11/25）。",
+      "source": "https://endfield.hypergryph.com/news/7204"
+    },
+    {
+      "id": "ef-renyan",
+      "game": "endfield",
+      "type": "banner",
+      "title": "特别寻访「人烟牵天河」",
+      "subtitle": "限定特别寻访",
+      "start": "2026-11-05T12:00:00+08:00",
+      "end": "2026-11-25T11:59:00+08:00",
+      "banners": [],
+      "note": "开放至版本更新维护前（预计 11/25），具体 UP 内容以游戏内公告为准。",
+      "source": "https://endfield.gryphline.com/ja-jp/news/7012"
+    },
+    {
+      "id": "ef-crisis",
+      "game": "endfield",
+      "type": "event",
+      "title": "危机合约「浸蓝测试作战」",
+      "subtitle": "第二赛季挑战活动",
+      "start": "2026-11-05T12:00:00+08:00",
+      "end": "2026-11-25T07:00:00+08:00",
+      "banners": [],
+      "note": "11/12 12:00 更新活动内容；「机密圣所」同步开放。",
+      "source": "https://endfield.hypergryph.com/news/6094"
+    },
+    {
+      "id": "ef-war",
+      "game": "endfield",
+      "type": "event",
+      "title": "战争回响 · 狂热赛季",
+      "subtitle": "常驻挑战玩法赛季更新",
+      "start": "2026-11-05T12:00:00+08:00",
+      "end": "2026-11-25T11:59:00+08:00",
+      "banners": [],
+      "note": "赛季分 3 个轮换周期、每周期 3 个关卡，开放至版本更新维护前（预计 11/25）。",
+      "source": "https://endfield.hypergryph.com/news/6094"
+    },
+    {
+      "id": "ef-mijing",
+      "game": "endfield",
+      "type": "event",
+      "title": "密境行者「画外遗光」",
+      "subtitle": "解谜活动 · 新空间组",
+      "start": "2026-11-19T04:00:00+08:00",
+      "end": "2026-11-25T11:59:00+08:00",
+      "banners": [],
+      "note": "11/19 04:00 开放后续 3 个协议空间，开放至版本更新维护前（预计 11/25），累计可领取嵌晶玉 ×1200 等奖励。",
+      "source": "https://endfield.hypergryph.com/news/6094"
+    },
+    {
+      "id": "ef-supply",
+      "game": "endfield",
+      "type": "event",
+      "title": "「理智补给」限时活动",
+      "subtitle": "限时资源补给",
+      "start": "2026-11-18T04:00:00+08:00",
+      "end": "2026-11-25T04:00:00+08:00",
+      "banners": [],
+      "codes": [],
+      "details": [
+        "活动时间：2026/11/18 04:00 – 11/25 04:00（服务器时间）"
+      ],
+      "note": "限时资源补给活动，奖励以游戏内活动页为准。",
+      "source": "https://www.skland.com/game/endfield"
+    },
+    {
+      "id": "ef-20-preview",
+      "game": "endfield",
+      "type": "preview",
+      "title": "2.0 揭幕前瞻特别节目",
+      "subtitle": "全新版本 & 2.0 揭幕",
+      "start": "2026-11-21T19:30:00+08:00",
+      "end": "2026-11-21T23:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "details": [
+        "11/21 19:30 播出，公布 2.0 版本内容与卡池"
+      ],
+      "note": "时间来自终末地官方公告 / 森空岛。",
+      "source": "https://www.skland.com/game/endfield"
+    },
+    {
+      "id": "ef-sign-ling",
+      "game": "endfield",
+      "type": "event",
+      "title": "「万物有灵」限时签到",
+      "subtitle": "累计签到送寻访凭证",
+      "start": "2026-10-15T12:00:00+08:00",
+      "end": "2026-11-05T11:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "details": [
+        "开放时间：2026/10/15 12:00 – 11/05 11:59（服务器时间）",
+        "累计签到可获得「万物有灵寻访凭证」×5 等奖励"
+      ],
+      "note": "与「万物更新」特许寻访同期开放。",
+      "source": "https://endfield.hypergryph.com/news/8548"
+    },
+    {
+      "id": "ef-sign-star",
+      "game": "endfield",
+      "type": "event",
+      "title": "「星河共我」限时签到",
+      "subtitle": "累计签到送寻访凭证",
+      "start": "2026-11-05T12:00:00+08:00",
+      "end": "2026-11-25T11:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "details": [
+        "开放时间：2026/11/05 12:00 起，开放至版本更新维护前（预计 11/25）",
+        "累计签到可获得「星河共我寻访凭证」×5 等奖励"
+      ],
+      "note": "与「烟火邀星河」特许寻访同期开放。",
+      "source": "https://endfield.hypergryph.com/news/7204"
+    }
+  ]
+}

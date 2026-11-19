@@ -1,0 +1,193 @@
+{
+  "game": "hsr",
+  "updated": "2026-11-18",
+  "events": [
+    {
+      "id": "hsr-47-preview",
+      "game": "hsr",
+      "type": "preview",
+      "title": "4.7 前瞻特别节目",
+      "subtitle": "「此刻，将群星付之一笑」",
+      "start": "2026-10-30T19:30:00+08:00",
+      "end": "2026-10-30T23:59:00+08:00",
+      "banners": [],
+      "codes": [
+        {
+          "label": "4.7 前瞻",
+          "code": "NEVERGONNAGIVE",
+          "reward": "星琼 ×100 · 信用点 ×50000",
+          "expires": "2026-10-31T23:59:00+08:00"
+        },
+        {
+          "label": "4.7 前瞻",
+          "code": "NEVERGONNAMAKE",
+          "reward": "星琼 ×100 · 旅情见闻 ×5",
+          "expires": "2026-10-31T23:59:00+08:00"
+        },
+        {
+          "label": "4.7 前瞻",
+          "code": "AHABLESSYOU",
+          "reward": "星琼 ×100 · 提纯以太 ×4",
+          "expires": "2026-10-31T23:59:00+08:00"
+        }
+      ],
+      "note": "前瞻兑换码 3 组，有效期至 10/31 23:59，已过期。",
+      "source": "https://www.miyoushe.com/sr/article/79218232"
+    },
+    {
+      "id": "hsr-47-version",
+      "game": "hsr",
+      "type": "version",
+      "title": "4.7「此刻，将群星付之一笑」",
+      "subtitle": "版本周期 · 星神阿哈登场",
+      "start": "2026-11-11T06:00:00+08:00",
+      "end": "2026-12-23T06:00:00+08:00",
+      "banners": [
+        {
+          "name": "星神★阿哈",
+          "tag": "5★ 量子 · 欢愉 · 全版本"
+        },
+        {
+          "name": "银狼LV.999",
+          "tag": "上半复刻"
+        },
+        {
+          "name": "火花",
+          "tag": "上半复刻"
+        },
+        {
+          "name": "爻光",
+          "tag": "上半复刻"
+        },
+        {
+          "name": "黄泉",
+          "tag": "下半复刻"
+        },
+        {
+          "name": "丹恒·饮月",
+          "tag": "下半复刻"
+        },
+        {
+          "name": "景元",
+          "tag": "下半复刻"
+        }
+      ],
+      "codes": [
+        {
+          "label": "4.7 限时",
+          "code": "NS4DU8AAGXBP",
+          "reward": "星琼 ×50 · 信用点 ×10000",
+          "expires": null
+        },
+        {
+          "label": "4.7 限时",
+          "code": "AeonAha",
+          "reward": "冒险记录 ×3 · 阿哈气球 ×2",
+          "expires": "2026-11-17T23:59:00+08:00"
+        }
+      ],
+      "note": "上半跃迁 11/11 – 12/02 15:00；下半跃迁 12/02 15:00 – 12/22 15:00。阿哈贯穿整个版本 UP。",
+      "source": "https://hsr.hoyoverse.com/zh-cn/news/167246"
+    },
+    {
+      "id": "hsr-47-p1",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.7 上半跃迁",
+      "subtitle": "阿哈 / 银狼LV.999 / 火花 / 爻光",
+      "start": "2026-11-11T06:00:00+08:00",
+      "end": "2026-12-02T15:00:00+08:00",
+      "banners": [
+        {
+          "name": "星神★阿哈",
+          "tag": "5★ 量子 · 欢愉"
+        },
+        {
+          "name": "银狼LV.999",
+          "tag": "复刻"
+        },
+        {
+          "name": "火花",
+          "tag": "复刻"
+        },
+        {
+          "name": "爻光",
+          "tag": "复刻"
+        }
+      ],
+      "note": "阿哈专武同步开启，四星陪跑：艾丝妲、玲可、驭空。",
+      "source": "https://gamingroute.com/honkai-star-rail-4-7-banners/"
+    },
+    {
+      "id": "hsr-47-skin",
+      "game": "hsr",
+      "type": "event",
+      "title": "时装「群星乐透」",
+      "subtitle": "幻乐秀场 · 星神阿哈时装",
+      "start": "2026-11-11T06:00:00+08:00",
+      "end": "2026-12-23T03:59:00+08:00",
+      "banners": [],
+      "note": "在「寰宇美学·幻乐秀场」消耗时装邀请函抽取，100 星琼 = 1 邀请函；提前获得后剩余奖励自动解锁。",
+      "source": "https://www.icy-veins.com/honkai-star-rail/news/honkai-star-rail-special-program-version-4-7-now-lay-laughter-to-all-stars-overview/"
+    },
+    {
+      "id": "hsr-47-event",
+      "game": "hsr",
+      "type": "event",
+      "title": "「万象和鸣」",
+      "subtitle": "消耗返利活动",
+      "start": "2026-11-11T06:00:00+08:00",
+      "end": "2026-12-23T03:59:00+08:00",
+      "banners": [],
+      "note": "累计消耗星轨专票或时装邀请函，可获得「回响」并领取「奇缘星魂」。",
+      "source": "https://sr.mihoyo.com/news/167108"
+    },
+    {
+      "id": "hsr-47-p2",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.7 下半跃迁",
+      "subtitle": "阿哈 / 黄泉 / 丹恒·饮月 / 景元",
+      "start": "2026-12-02T15:00:00+08:00",
+      "end": "2026-12-22T15:00:00+08:00",
+      "banners": [
+        {
+          "name": "星神★阿哈",
+          "tag": "5★ 量子 · 欢愉"
+        },
+        {
+          "name": "黄泉",
+          "tag": "复刻"
+        },
+        {
+          "name": "丹恒·饮月",
+          "tag": "复刻"
+        },
+        {
+          "name": "景元",
+          "tag": "复刻"
+        }
+      ],
+      "note": "下半卡池与上半同为阿哈主 UP，复刻位轮换。",
+      "source": "https://gamingroute.com/honkai-star-rail-4-7-banners/"
+    },
+    {
+      "id": "hsr-47-selector",
+      "game": "hsr",
+      "type": "event",
+      "title": "登录自选 5★ 角色",
+      "subtitle": "黄泉 / 丹恒·饮月 / 景元",
+      "start": "2026-11-11T06:00:00+08:00",
+      "end": "2026-12-23T03:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "details": [
+        "4.7 版本期间登录，可在黄泉、丹恒·饮月、景元中任选 1 名 5★ 角色",
+        "可再选择上述角色之一的「奇缘星魂」",
+        "另有旅伴金灵 ×1 等登录奖励"
+      ],
+      "note": "登录即领，具体领取入口与时间以游戏内活动页为准。",
+      "source": "https://sr.mihoyo.com/news/167107"
+    }
+  ]
+}

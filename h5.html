@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070a11">
+<title>游戏活动日历 · H5</title>
+<link rel="stylesheet" href="h5.css">
+</head>
+<body>
+<div class="h5">
+  <header class="h5-top">
+    <div>
+      <h1>游戏活动日历</h1>
+      <p>原神 · 星铁 · 绝区零 · 终末地 · 明日方舟 · 鸣潮</p>
+    </div>
+    <div class="h5-date" id="h5Date"></div>
+  </header>
+
+  <div class="month-strip" id="h5Months"></div>
+
+  <div class="tabs" id="h5Tabs">
+    <button data-tab="feed" class="on">日程</button>
+    <button data-tab="lane">时间轴</button>
+    <button data-tab="codes">兑换码</button>
+  </div>
+
+  <div class="filters" id="h5Games"></div>
+  <div class="filters type-filters" id="h5Types"></div>
+
+  <main id="h5Main"></main>
+
+  <footer class="h5-foot">
+    数据更新 <b id="h5Updated"></b> · 北京时间（UTC+8）
+  </footer>
+</div>
+
+<div class="sheet-backdrop" id="h5Backdrop"></div>
+<section class="sheet" id="h5Sheet" role="dialog" aria-modal="true"></section>
+
+<div class="h5-lightbox" id="h5Lightbox">
+  <button class="lb-close" id="h5LbClose" aria-label="关闭">×</button>
+  <img id="h5LbImg" alt="活动图">
+  <a class="lb-open" id="h5LbOpen" target="_blank" rel="noopener">在新标签页查看原图 ↗</a>
+</div>
+
+<script src="data.js"></script>
+<script src="h5.js"></script>
+</body>
+</html>

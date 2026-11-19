@@ -1,0 +1,64 @@
+{
+  "games": [
+    {
+      "id": "genshin",
+      "name": "原神",
+      "short": "原神",
+      "color": "#7aa2ff",
+      "file": "genshin.json"
+    },
+    {
+      "id": "hsr",
+      "name": "崩坏：星穹铁道",
+      "short": "星铁",
+      "color": "#b98cff",
+      "file": "hsr.json"
+    },
+    {
+      "id": "zzz",
+      "name": "绝区零",
+      "short": "绝区零",
+      "color": "#ffcf5c",
+      "file": "zzz.json"
+    },
+    {
+      "id": "endfield",
+      "name": "明日方舟：终末地",
+      "short": "终末地",
+      "color": "#4fd9a8",
+      "file": "endfield.json"
+    },
+    {
+      "id": "arknights",
+      "name": "明日方舟",
+      "short": "明日方舟",
+      "color": "#ff8a65",
+      "file": "arknights.json"
+    },
+    {
+      "id": "wuwa",
+      "name": "鸣潮",
+      "short": "鸣潮",
+      "color": "#4ec9ff",
+      "file": "wuwa.json"
+    }
+  ],
+  "types": {
+    "version": {
+      "label": "版本",
+      "glyph": "◈"
+    },
+    "banner": {
+      "label": "卡池",
+      "glyph": "★"
+    },
+    "event": {
+      "label": "活动",
+      "glyph": "◆"
+    },
+    "preview": {
+      "label": "前瞻",
+      "glyph": "▶"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "game": "wuwa",
+  "updated": "2026-11-18",
+  "events": [
+    {
+      "id": "wuwa-38-preview",
+      "game": "wuwa",
+      "type": "preview",
+      "title": "3.8 前瞻通讯",
+      "subtitle": "「旧梦凋零的百合」",
+      "start": "2026-11-06T19:00:00+08:00",
+      "end": "2026-11-06T23:59:00+08:00",
+      "banners": [],
+      "codes": [
+        {
+          "label": "3.8 前瞻",
+          "code": "TRAINOFSOULS",
+          "reward": "星声 ×100 · 养成材料 ×5",
+          "expires": "2026-11-08T23:59:00+08:00"
+        },
+        {
+          "label": "3.8 前瞻",
+          "code": "BLOOMINGFLOWERS",
+          "reward": "星声 ×100 · 养成材料 ×2 · 贝币 ×40000",
+          "expires": "2026-11-08T23:59:00+08:00"
+        },
+        {
+          "label": "3.8 前瞻",
+          "code": "SCHOOLLIFE",
+          "reward": "星声 ×100 · 养成材料 ×25",
+          "expires": "2026-11-08T23:59:00+08:00"
+        }
+      ],
+      "note": "前瞻兑换码有效期至 11/08 23:59，已过期；永久码 WUTHERINGGIFT 仍可兑换。",
+      "source": "https://wuwa.uk/articles/wuwa-3-8-preview-2026"
+    },
+    {
+      "id": "wuwa-38-version",
+      "game": "wuwa",
+      "type": "version",
+      "title": "3.8「旧梦凋零的百合」",
+      "subtitle": "版本周期 · 两期共鸣者集音",
+      "start": "2026-11-12T10:00:00+08:00",
+      "end": "2026-12-22T03:59:00+08:00",
+      "banners": [
+        {
+          "name": "莉莉",
+          "tag": "5★ · 上半"
+        },
+        {
+          "name": "西格莉卡",
+          "tag": "上半复刻"
+        },
+        {
+          "name": "仇远",
+          "tag": "上半复刻"
+        },
+        {
+          "name": "秧秧·玄翎",
+          "tag": "下半复刻"
+        },
+        {
+          "name": "穗穗",
+          "tag": "下半复刻"
+        },
+        {
+          "name": "绯雪",
+          "tag": "下半复刻"
+        }
+      ],
+      "codes": [
+        {
+          "label": "永久兑换码",
+          "code": "WUTHERINGGIFT",
+          "reward": "星声 ×50 · 贝币 ×15000 · 养成材料",
+          "expires": null
+        }
+      ],
+      "note": "上半 11/12 – 12/03 09:59；下半 12/03 10:00 – 12/22 03:59。版本结束时间为社区汇总，官方可能微调。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5754"
+    },
+    {
+      "id": "wuwa-38-p1",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "3.8 上半集音",
+      "subtitle": "莉莉 / 西格莉卡 / 仇远",
+      "start": "2026-11-12T10:00:00+08:00",
+      "end": "2026-12-03T09:59:00+08:00",
+      "banners": [
+        {
+          "name": "莉莉",
+          "tag": "5★ 新角色"
+        },
+        {
+          "name": "西格莉卡",
+          "tag": "5★ 复刻"
+        },
+        {
+          "name": "仇远",
+          "tag": "5★ 复刻"
+        }
+      ],
+      "note": "莉莉配套专武「安魂」同步开启武器池。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5754"
+    },
+    {
+      "id": "wuwa-38-p2",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "3.8 下半集音",
+      "subtitle": "秧秧·玄翎 / 穗穗 / 绯雪",
+      "start": "2026-12-03T10:00:00+08:00",
+      "end": "2026-12-22T03:59:00+08:00",
+      "banners": [
+        {
+          "name": "秧秧·玄翎",
+          "tag": "5★"
+        },
+        {
+          "name": "穗穗",
+          "tag": "5★"
+        },
+        {
+          "name": "绯雪",
+          "tag": "5★"
+        }
+      ],
+      "note": "下半与 3.8 版本同期结束，结束时间以官方公告为准。",
+      "source": "https://www.taptap.cn/hashtag/%E9%B8%A3%E6%BD%AE%E6%96%B0%E7%89%88%E6%9C%AC%E5%89%8D%E7%9E%BB"
+    }
+  ]
+}

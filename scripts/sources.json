@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "game": "genshin",
+      "name": "米游社 原神官方",
+      "url": "https://www.miyoushe.com/ys/",
+      "mode": "miyoushe",
+      "forumId": 28,
+      "path": "ys",
+      "officialAuthors": ["原神", "原神千星奇域"],
+      "enabled": true
+    },
+    {
+      "game": "hsr",
+      "name": "米游社 星铁官方",
+      "url": "https://www.miyoushe.com/sr/",
+      "mode": "miyoushe",
+      "forumId": 53,
+      "path": "sr",
+      "officialAuthors": ["崩坏星穹铁道", "车站问询处1号客服"],
+      "enabled": true
+    },
+    {
+      "game": "zzz",
+      "name": "米游社 绝区零官方",
+      "url": "https://www.miyoushe.com/zzz/",
+      "mode": "miyoushe",
+      "forumId": 58,
+      "path": "zzz",
+      "officialAuthors": ["绝区零", "米仔"],
+      "enabled": true
+    },
+    {
+      "game": "wuwa",
+      "name": "库街区 鸣潮官方",
+      "url": "https://www.kurobbs.com/mc/home/9",
+      "mode": "kurobbs",
+      "gameId": 3,
+      "eventType": 1,
+      "enabled": true
+    },
+    {
+      "game": "arknights",
+      "name": "明日方舟 官网公告 API",
+      "url": "https://ak.hypergryph.com/news",
+      "mode": "hypergryph",
+      "code": "arknights",
+      "enabled": true
+    },
+    {
+      "game": "endfield",
+      "name": "终末地 官网公告 API",
+      "url": "https://endfield.hypergryph.com/news",
+      "mode": "hypergryph",
+      "code": "endfield_web",
+      "enabled": true
+    }
+  ],
+  "references": [
+    {
+      "game": "wuwa",
+      "name": "库街区 鸣潮官方",
+      "url": "https://www.kurobbs.com/mc/home/9",
+      "note": "官方帖接口需要登录 token，可在环境变量 KUROBBS_TOKEN / KUROBBS_UID 中配置后启用自动抓取"
+    },
+    {
+      "game": "endfield",
+      "name": "森空岛 终末地",
+      "url": "https://www.skland.com/game/endfield",
+      "note": "版本日历为官网静态长图；公告数据使用终末地官网 bulletin API"
+    },
+    {
+      "game": "arknights",
+      "name": "森空岛 明日方舟",
+      "url": "https://www.skland.com/game/arknights",
+      "note": "公告数据与官网情报中心同源，直接使用 bulletin API"
+    }
+  ]
+}

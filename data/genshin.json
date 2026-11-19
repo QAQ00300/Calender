@@ -1,0 +1,154 @@
+{
+  "game": "genshin",
+  "updated": "2026-11-18",
+  "events": [
+    {
+      "id": "gi-72-preview",
+      "game": "genshin",
+      "type": "preview",
+      "title": "7.2 前瞻特别节目",
+      "subtitle": "「坏灭肇始之时」",
+      "start": "2026-10-23T20:00:00+08:00",
+      "end": "2026-10-23T23:59:00+08:00",
+      "banners": [],
+      "codes": [
+        {
+          "label": "7.2 前瞻",
+          "code": "坏灭肇始之时",
+          "reward": "原石 ×100 · 精锻用魔矿 ×10",
+          "expires": "2026-10-26T12:00:00+08:00"
+        },
+        {
+          "label": "7.2 前瞻",
+          "code": "天才少年米提亚登场",
+          "reward": "原石 ×100 · 大英雄的经验 ×5",
+          "expires": "2026-10-26T12:00:00+08:00"
+        },
+        {
+          "label": "7.2 前瞻",
+          "code": "千星奇域一起拍拍拍",
+          "reward": "原石 ×100 · 摩拉 ×50000",
+          "expires": "2026-10-26T12:00:00+08:00"
+        }
+      ],
+      "note": "前瞻兑换码共 3 组，有效期至 10/26 12:00，已过期。",
+      "source": "https://www.miyoushe.com/ys/article/79087188"
+    },
+    {
+      "id": "gi-72-version",
+      "game": "genshin",
+      "type": "version",
+      "title": "7.2「坏灭肇始之时」",
+      "subtitle": "版本周期 · 两期角色祈愿",
+      "start": "2026-11-04T06:00:00+08:00",
+      "end": "2026-12-16T05:59:00+08:00",
+      "banners": [
+        {
+          "name": "米提亚",
+          "tag": "5★ 雷 · 上半"
+        },
+        {
+          "name": "芙宁娜",
+          "tag": "5★ 水 · 上半"
+        },
+        {
+          "name": "兹白",
+          "tag": "5★ · 下半"
+        },
+        {
+          "name": "莉奈娅",
+          "tag": "5★ · 下半"
+        }
+      ],
+      "note": "上半祈愿 11/04 06:00 – 11/24 17:59；下半祈愿 11/24 18:00 – 12/15 14:59。7.3 版本预计 12/16 更新。",
+      "source": "https://ys.mihoyo.com/main/m/news/detail/167205"
+    },
+    {
+      "id": "gi-72-p1",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.2 上半祈愿",
+      "subtitle": "「万象繁织」米提亚 · 芙宁娜",
+      "start": "2026-11-04T06:00:00+08:00",
+      "end": "2026-11-24T17:59:00+08:00",
+      "banners": [
+        {
+          "name": "米提亚",
+          "tag": "5★ 雷"
+        },
+        {
+          "name": "芙宁娜",
+          "tag": "5★ 水"
+        }
+      ],
+      "note": "同期武器池：朏魄含光、霜结的誓金枝。",
+      "source": "https://genshin.hoyoverse.com/en/news/detail/167139"
+    },
+    {
+      "id": "gi-72-season",
+      "game": "genshin",
+      "type": "event",
+      "title": "幽境危战 第十三期",
+      "subtitle": "「鲸波之役」挑战活动",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-12-15T03:59:00+08:00",
+      "banners": [],
+      "image": "data/images/genshin-gi-72-season-1-d7a14b3a.png",
+      "gallery": [
+        "data/images/genshin-gi-72-season-1-d7a14b3a.png",
+        "data/images/genshin-gi-72-season-2-fa6b1e64.png"
+      ],
+      "details": [
+        "整体活动时间：2026/11/11 10:00 – 2026/12/15 03:59",
+        "紊乱爆发期：2026/11/11 10:00 – 2026/11/21 03:59",
+        "挑战「紊乱地脉」，按关卡进度领取原石等奖励"
+      ],
+      "note": "紊乱爆发期 11/11 10:00 – 11/21 03:59；挑战期至 12/15 03:59。",
+      "source": "https://www.miyoushe.com/ys/article/73631435"
+    },
+    {
+      "id": "gi-72-p2",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.2 下半祈愿",
+      "subtitle": "兹白 · 莉奈娅",
+      "start": "2026-11-24T18:00:00+08:00",
+      "end": "2026-12-15T14:59:00+08:00",
+      "banners": [
+        {
+          "name": "兹白",
+          "tag": "5★"
+        },
+        {
+          "name": "莉奈娅",
+          "tag": "5★"
+        }
+      ],
+      "note": "上半卡池 11/24 17:59 结束，18:00 切换至下半。",
+      "source": "https://www.miyoushe.com/ys/article/76090473"
+    },
+    {
+      "id": "gi-72-block",
+      "game": "genshin",
+      "type": "event",
+      "title": "「压力方块粉碎计划」",
+      "subtitle": "挖掘挑战 · 千星奇域",
+      "start": "2026-11-20T10:00:00+08:00",
+      "end": "2026-11-30T03:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/genshin-gi-72-block-1-1bab0b0d.png",
+      "gallery": [
+        "data/images/genshin-gi-72-block-1-1bab0b0d.png",
+        "data/images/genshin-gi-72-block-2-7d21a7c2.png"
+      ],
+      "details": [
+        "活动时间：2026/11/20 10:00 – 2026/11/30 03:59",
+        "完成挖掘挑战关卡，领取原石等活动奖励"
+      ],
+      "requirements": "冒险等阶≥20；完成魔神任务序章·第三幕「巨龙与自由之歌」",
+      "note": "千星奇域限时活动，活动图见上方。",
+      "source": "https://www.miyoushe.com/ys/article/79640409"
+    }
+  ]
+}

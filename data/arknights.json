@@ -1,0 +1,63 @@
+{
+  "game": "arknights",
+  "updated": "2026-11-18",
+  "events": [
+    {
+      "id": "ak-mid",
+      "game": "arknights",
+      "type": "banner",
+      "title": "中坚寻访",
+      "subtitle": "中坚干员轮换",
+      "start": "2026-10-29T04:00:00+08:00",
+      "end": "2026-11-12T03:59:00+08:00",
+      "banners": [],
+      "note": "仅包含中坚干员，可使用中坚寻访凭证。",
+      "source": "https://m.prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88"
+    },
+    {
+      "id": "ak-thanks",
+      "game": "arknights",
+      "type": "event",
+      "title": "感谢庆典「时间啊，向前！」",
+      "subtitle": "SideStory · 2026 感谢庆典",
+      "start": "2026-11-01T12:00:00+08:00",
+      "end": "2026-11-22T03:59:00+08:00",
+      "banners": [],
+      "note": "活动关卡分段开放，第三段 11/15 16:00 开启；11/08 16:00 起同步开放「卫戍协议·规程·序列I」。",
+      "source": "https://ak.hypergryph.com/news/0787"
+    },
+    {
+      "id": "ak-banner",
+      "game": "arknights",
+      "type": "banner",
+      "title": "限定寻访「将雪投火」",
+      "subtitle": "塔露拉【限定】 / 冻河",
+      "start": "2026-11-01T12:00:00+08:00",
+      "end": "2026-11-15T03:59:00+08:00",
+      "banners": [
+        {
+          "name": "塔露拉",
+          "tag": "6★ 限定"
+        },
+        {
+          "name": "冻河",
+          "tag": "6★（占 6★ 出率的另一半）"
+        }
+      ],
+      "note": "庆典限定寻访，300 抽保底兑换机制适用。",
+      "source": "https://ak.hypergryph.com/news/0787"
+    },
+    {
+      "id": "ak-rerun",
+      "game": "arknights",
+      "type": "event",
+      "title": "「雪山降临1101」限时复刻",
+      "subtitle": "SideStory 复刻 · 喀兰贸易",
+      "start": "2026-11-22T04:00:00+08:00",
+      "end": "2026-12-06T03:59:00+08:00",
+      "banners": [],
+      "note": "活动关卡「圣巡之旅」「变革之路」「喀兰之心」11/22 04:00 – 12/02 03:59 开放，喀兰贸易技术研发部同步开启。",
+      "source": "https://ak-webview.hypergryph.com/gameBulletin"
+    }
+  ]
+}

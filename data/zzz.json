@@ -1,0 +1,169 @@
+{
+  "game": "zzz",
+  "updated": "2026-11-18",
+  "events": [
+    {
+      "id": "zzz-33-version",
+      "game": "zzz",
+      "type": "version",
+      "title": "3.3「重返天空的旅程」",
+      "subtitle": "版本周期 · 两期限时频段",
+      "start": "2026-10-21T10:00:00+08:00",
+      "end": "2026-12-01T14:59:00+08:00",
+      "banners": [
+        {
+          "name": "菲欧妮",
+          "tag": "S · 火 · 异常 · 上期"
+        },
+        {
+          "name": "赛维里安",
+          "tag": "S · 风 · 强攻 · 下期"
+        }
+      ],
+      "image": "data/images/zzz-zzz-33-version-1-52aadbe9.png",
+      "gallery": [
+        "data/images/zzz-zzz-33-version-1-52aadbe9.png",
+        "data/images/zzz-zzz-33-version-2-858afd6b.png",
+        "data/images/zzz-zzz-33-version-3-5d088df2.png"
+      ],
+      "details": [
+        "下期频段：赛维里安（风·强攻）、诺姆（火·击破）",
+        "签到活动「『嗯呢』从天降」11/11 – 12/01",
+        "版本活动「修复吧！漂流画集」11/16 – 11/30",
+        "版本活动「跛脚乌鸦奇踪记」11/11 – 11/30"
+      ],
+      "note": "上期频段 10/21 – 11/11 11:59；下期频段 11/11 12:00 – 12/01 14:59。3.4 版本预计 12/02 更新。",
+      "source": "https://zzz.mihoyo.com/m/news/166989"
+    },
+    {
+      "id": "zzz-33-p1",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.3 上期限时频段",
+      "subtitle": "「倾掷浮生」菲欧妮",
+      "start": "2026-10-21T10:00:00+08:00",
+      "end": "2026-11-11T11:59:00+08:00",
+      "banners": [
+        {
+          "name": "菲欧妮",
+          "tag": "S · 火 · 异常"
+        }
+      ],
+      "note": "限定 S 级代理人，配套音擎同步调频。",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/166926"
+    },
+    {
+      "id": "zzz-33-login",
+      "game": "zzz",
+      "type": "event",
+      "title": "全新放送 · 登录送 10 母带",
+      "subtitle": "累计登录 7 天",
+      "start": "2026-10-21T10:00:00+08:00",
+      "end": "2026-12-01T03:59:00+08:00",
+      "banners": [],
+      "note": "绳网等级 ≥5 并解锁「活动」功能后，累计登录 7 天可领取加密母带 ×10。",
+      "source": "https://zzz.mihoyo.com/m/news/166989"
+    },
+    {
+      "id": "zzz-33-p2",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.3 下期限时频段",
+      "subtitle": "「答案在风中」赛维里安",
+      "start": "2026-11-11T12:00:00+08:00",
+      "end": "2026-12-01T14:59:00+08:00",
+      "banners": [
+        {
+          "name": "赛维里安",
+          "tag": "S · 风 · 强攻"
+        }
+      ],
+      "note": "上期频段 11/11 11:59 结束，12:00 切换下期。",
+      "source": "https://zenless.hoyoverse.com/zh-cn/news/167269"
+    },
+    {
+      "id": "zzz-34-preview",
+      "game": "zzz",
+      "type": "preview",
+      "title": "3.4「长日终尽」前瞻节目",
+      "subtitle": "官方前瞻特别节目",
+      "start": "2026-11-20T18:30:00+08:00",
+      "end": "2026-11-20T23:59:00+08:00",
+      "banners": [],
+      "image": "data/images/zzz-zzz-34-preview-1-f91124b5.jpg",
+      "note": "11/20 18:30 播出，届时公布 3.4 卡池与前瞻兑换码。",
+      "source": "https://www.miyoushe.com/zzz/article/79603551",
+      "gallery": [
+        "data/images/zzz-zzz-34-preview-1-f91124b5.jpg"
+      ]
+    },
+    {
+      "id": "zzz-33-eni",
+      "game": "zzz",
+      "type": "event",
+      "title": "「『嗯呢』从天降」",
+      "subtitle": "签到活动",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-12-01T03:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/zzz-zzz-33-eni-1-d9efa0a0.png",
+      "gallery": [
+        "data/images/zzz-zzz-33-eni-1-d9efa0a0.png"
+      ],
+      "details": [
+        "活动时间：2026/11/11 10:00 – 2026/12/01 03:59",
+        "累计签到领取菲林等奖励"
+      ],
+      "requirements": "绳网等级≥5；完成主线序章「兔与绳」并解锁「活动」功能",
+      "note": "签到类活动，奖励以游戏内活动页为准。",
+      "source": "https://www.miyoushe.com/zzz/article/79450962"
+    },
+    {
+      "id": "zzz-33-paint",
+      "game": "zzz",
+      "type": "event",
+      "title": "「修复吧！漂流画集」",
+      "subtitle": "版本活动",
+      "start": "2026-11-16T10:00:00+08:00",
+      "end": "2026-11-30T03:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/zzz-zzz-33-paint-1-7ddfe5f9.png",
+      "gallery": [
+        "data/images/zzz-zzz-33-paint-1-7ddfe5f9.png",
+        "data/images/zzz-zzz-33-paint-2-555bd261.png"
+      ],
+      "details": [
+        "活动时间：2026/11/16 10:00 – 2026/11/30 03:59",
+        "完成画集修复玩法，领取菲林等奖励"
+      ],
+      "requirements": "绳网等级≥20；完成主线第一章·幕间",
+      "note": "版本限时活动，详情见官方活动图。",
+      "source": "https://www.miyoushe.com/zzz/article/79539085"
+    },
+    {
+      "id": "zzz-33-crow",
+      "game": "zzz",
+      "type": "event",
+      "title": "「跛脚乌鸦奇踪记」",
+      "subtitle": "版本活动",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-11-30T03:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/zzz-zzz-33-crow-1-c1a3d6d4.png",
+      "gallery": [
+        "data/images/zzz-zzz-33-crow-1-c1a3d6d4.png",
+        "data/images/zzz-zzz-33-crow-2-52c75793.png"
+      ],
+      "details": [
+        "活动时间：2026/11/11 10:00 – 2026/11/30 03:59",
+        "完成活动关卡与任务，领取菲林等奖励"
+      ],
+      "requirements": "绳网等级≥20；完成主线第一章·幕间",
+      "note": "版本限时活动，详情见官方活动图。",
+      "source": "https://www.miyoushe.com/zzz/article/79450779"
+    }
+  ]
+}
