@@ -1,6 +1,6 @@
 {
   "game": "endfield",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "events": [
     {
       "id": "ef-version",
@@ -38,17 +38,55 @@
       "game": "endfield",
       "type": "banner",
       "title": "复刻寻访「汤汤」",
-      "subtitle": "6★ 干员复刻",
+      "subtitle": "6★ 干员复刻 · 重构寻访",
       "start": "2026-10-29T12:00:00+08:00",
-      "end": "2026-11-19T12:00:00+08:00",
+      "end": "2026-11-19T11:59:00+08:00",
       "banners": [
         {
           "name": "汤汤",
           "tag": "6★ 复刻"
         }
       ],
-      "note": "复刻寻访与「丹青渡」版本同步开放。",
-      "source": "https://www.taptap.cn/hashtag/%E5%8D%B1%E6%9C%BA%E5%90%88%E7%BA%A6"
+      "image": "data/images/endfield-ef-tangtang-1-0dc33d9f.png",
+      "gallery": [
+        "data/images/endfield-ef-tangtang-1-0dc33d9f.png"
+      ],
+      "details": [
+        "开放时间：2026/10/29 12:00 – 11/19 11:59（服务器时间）",
+        "「祖泉的新流」重构寻访<1>：6★ 干员【汤汤】概率提升，前 120 次寻访必定获得",
+        "同期「细枝申领」重构申领<1>：6★ 武器【落草（手铳）】概率提升"
+      ],
+      "rewards": "累计寻访可获得加急招募、汤汤的信物等",
+      "requirements": "完成主线任务「第一章 - 进程Ⅰ - 基地解围」",
+      "note": "「祖泉的新流」重构寻访<1>与「细枝申领」重构申领<1>同期开放，11/19 11:59 结束。",
+      "source": "https://endfield.hypergryph.com/news/3893"
+    },
+    {
+      "id": "ef-wanwu",
+      "game": "endfield",
+      "type": "banner",
+      "title": "特许寻访「万物更新」",
+      "subtitle": "6★ 祀",
+      "start": "2026-10-15T12:00:00+08:00",
+      "end": "2026-11-05T11:59:00+08:00",
+      "banners": [
+        {
+          "name": "祀",
+          "tag": "6★ 概率提升"
+        }
+      ],
+      "image": "data/images/endfield-ef-wanwu-1-0a2f2e0b.jpg",
+      "gallery": [
+        "data/images/endfield-ef-wanwu-1-0a2f2e0b.jpg"
+      ],
+      "details": [
+        "开放时间：2026/10/15 版本更新后 – 11/05 11:59（服务器时间）",
+        "6★ 概率提升干员：祀；全部可能出现的 6★：祀 / 提弗洛斯 / 梨诺 / 余烬 / 黎风 / 艾尔黛拉 / 别礼 / 骏卫",
+        "累计寻访 30 次额外获得 10 次加急招募，60 次获得寻访情报书 ×1"
+      ],
+      "requirements": "完成主线任务「第一章 - 进程Ⅰ - 基地解围」",
+      "note": "「万物有灵」限时签到及「作战演练」干员试用同期开放。",
+      "source": "https://endfield.hypergryph.com/news/8548"
     },
     {
       "id": "ef-minghe",

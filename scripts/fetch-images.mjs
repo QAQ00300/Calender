@@ -103,10 +103,12 @@ async function processInbox(file) {
         local.push('data/images/inbox/' + name);
         count++;
       } catch {
-        local.push(url);
+        // 下载失败时丢弃远程地址，避免页面依赖外部图床
       }
     }
-    item.localImages = local;
+    const localOnly = local.filter((u) => !isRemote(u));
+    item.images = localOnly;
+    item.localImages = localOnly;
   }
   fs.writeFileSync(file, JSON.stringify(raw, null, 2) + '\n');
   return count;

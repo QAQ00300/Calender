@@ -1,6 +1,6 @@
 {
   "game": "wuwa",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "events": [
     {
       "id": "wuwa-38-preview",
@@ -40,7 +40,7 @@
       "type": "version",
       "title": "3.8「旧梦凋零的百合」",
       "subtitle": "版本周期 · 两期共鸣者集音",
-      "start": "2026-11-12T10:00:00+08:00",
+      "start": "2026-11-12T11:00:00+08:00",
       "end": "2026-12-22T03:59:00+08:00",
       "banners": [
         {
@@ -85,7 +85,7 @@
       "type": "banner",
       "title": "3.8 上半集音",
       "subtitle": "莉莉 / 西格莉卡 / 仇远",
-      "start": "2026-11-12T10:00:00+08:00",
+      "start": "2026-11-12T11:00:00+08:00",
       "end": "2026-12-03T09:59:00+08:00",
       "banners": [
         {
@@ -128,6 +128,106 @@
       ],
       "note": "下半与 3.8 版本同期结束，结束时间以官方公告为准。",
       "source": "https://www.taptap.cn/hashtag/%E9%B8%A3%E6%BD%AE%E6%96%B0%E7%89%88%E6%9C%AC%E5%89%8D%E7%9E%BB"
+    },
+    {
+      "id": "wuwa-38-solaris",
+      "game": "wuwa",
+      "type": "event",
+      "title": "「第二索拉：未名之梦」",
+      "subtitle": "休闲活动 · 校园养成",
+      "start": "2026-11-12T11:00:00+08:00",
+      "end": "2026-12-21T11:59:00+08:00",
+      "banners": [],
+      "details": [
+        "活动时间：3.8 版本更新后 – 2026/12/21 11:59（服务器时间）",
+        "第二索拉系列校园生活模拟玩法：规划日程、培养能力，与同伴共同迎接最终评定"
+      ],
+      "rewards": "星声 ×1200、羁旅印章「第二索拉毕业季」、头像「课间时光」",
+      "note": "3.8 版本主要休闲活动，详细规则见官方公告。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+    },
+    {
+      "id": "wuwa-38-lahai",
+      "game": "wuwa",
+      "type": "event",
+      "title": "「拉海洛方块・逆转」",
+      "subtitle": "休闲活动 · 旋转功能更新",
+      "start": "2026-11-19T04:00:00+08:00",
+      "end": "2026-12-03T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "活动时间：2026/11/19 04:00 – 12/03 03:59（服务器时间）",
+        "「拉海洛方块」加入旋转功能，并新增隐藏玩法"
+      ],
+      "rewards": "星声 ×400、特级共鸣促剂 ×9、特级能源核心 ×6、特级密音筒 ×6、凝素高级物资箱・拉海洛 ×14 等",
+      "note": "活动今日 04:00 开启，详细规则见官方公告。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+    },
+    {
+      "id": "wuwa-38-lollo",
+      "game": "wuwa",
+      "type": "event",
+      "title": "「呜呜企划・整备」",
+      "subtitle": "限时委托活动",
+      "start": "2026-12-03T10:00:00+08:00",
+      "end": "2026-12-17T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "活动时间：2026/12/03 10:00 – 12/17 03:59（服务器时间）",
+        "完成每日任务获取「呜呜邮币」，兑换呜呜物流回赠的「助呜为乐」特别邮递"
+      ],
+      "rewards": "「助呜为乐」特别邮递",
+      "note": "3.8 版本限时委托活动，详细规则见官方公告。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+    },
+    {
+      "id": "wuwa-38-dreamfield",
+      "game": "wuwa",
+      "type": "event",
+      "title": "「梦野寻奇」",
+      "subtitle": "战斗活动 · 荒寂梦野",
+      "start": "2026-12-03T10:00:00+08:00",
+      "end": "2026-12-21T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "活动时间：2026/12/03 10:00 – 12/21 03:59（服务器时间）",
+        "探索白色守门人指引的「荒寂梦野」，查明门扉出现的原因"
+      ],
+      "rewards": "活动称号「穿越梦野之旅」等",
+      "note": "3.8 版本战斗活动，详细规则见官方公告。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+    },
+    {
+      "id": "wuwa-38-gift",
+      "game": "wuwa",
+      "type": "event",
+      "title": "「昔梦赠礼」七日签到",
+      "subtitle": "七日签到活动",
+      "start": "2026-11-12T11:00:00+08:00",
+      "end": "2026-12-21T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "活动时间：3.8 版本更新后 – 2026/12/21 03:59（服务器时间）",
+        "每日登录游戏，即可前往活动界面领取对应天数的签到奖励"
+      ],
+      "note": "3.8 版本签到活动，奖励以游戏内活动页为准。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+    },
+    {
+      "id": "wuwa-38-wind",
+      "game": "wuwa",
+      "type": "event",
+      "title": "「风之所向」限时签到",
+      "subtitle": "限时登录活动",
+      "start": "2026-12-07T04:00:00+08:00",
+      "end": "2026-12-21T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "活动时间：2026/12/07 04:00 – 12/21 03:59（服务器时间）",
+        "活动期间每日登录游戏，前往活动界面领取对应天数奖励"
+      ],
+      "note": "3.8 版本后半段登录活动，奖励以游戏内活动页为准。",
+      "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
     }
   ]
 }

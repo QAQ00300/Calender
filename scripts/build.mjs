@@ -4,10 +4,12 @@
  * 用法：node scripts/build.mjs
  */
 import fs from 'node:fs/promises';
+import fsSync from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
+const imageWarnings = [];
 
 const config = JSON.parse(await fs.readFile(path.join(DATA_DIR, 'games.json'), 'utf8'));
 const typeIds = new Set(Object.keys(config.types));
@@ -39,6 +41,18 @@ for (const game of games) {
     if (!typeIds.has(event.type)) throw new Error(`${event.id} 的 type 不存在：${event.type}`);
     if (Number.isNaN(new Date(event.start).getTime())) throw new Error(`${event.id} 的 start 无法解析：${event.start}`);
     if (event.end && Number.isNaN(new Date(event.end).getTime())) throw new Error(`${event.id} 的 end 无法解析：${event.end}`);
+
+    const images = [event.image, ...(event.gallery || [])].filter(Boolean);
+    for (const url of images) {
+      if (/github\.com|github\.io|githubusercontent\.com/i.test(url)) {
+        throw new Error(`${event.id} 的图片不能使用 GitHub 链接：${url}`);
+      }
+      if (/^https?:/i.test(url)) {
+        imageWarnings.push(`${event.id}: 远程图片 ${url}`);
+      } else if (url.startsWith('data/images/') && !fsSync.existsSync(path.join(ROOT, url))) {
+        imageWarnings.push(`${event.id}: 本地图片缺失 ${url}`);
+      }
+    }
     seen.add(event.id);
     events.push(event);
   }
@@ -73,3 +87,9 @@ const EVENTS = ${JSON.stringify(events, null, 2)};
 await fs.writeFile(path.join(ROOT, 'data.js'), output, 'utf8');
 console.log(`已生成 data.js：${events.length} 条行程，更新于 ${updated || '未知'}`);
 console.log(`游戏：${summary.join('、')}`);
+if (imageWarnings.length) {
+  console.log(`图片检查：${imageWarnings.length} 条提示（不阻断构建）`);
+  imageWarnings.slice(0, 8).forEach((w) => console.log('  - ' + w));
+} else {
+  console.log('图片检查：全部为本地文件，无 GitHub / 外部图床依赖');
+}
