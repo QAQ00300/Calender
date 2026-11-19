@@ -3,7 +3,7 @@
  * 时间均为北京时间（UTC+8）；end 为 null 表示官方未公布结束时间。
  */
 
-const DATA_UPDATED = "2026-11-18";
+const DATA_UPDATED = "2026-11-19";
 
 const GAMES = [
   {
@@ -94,6 +94,33 @@ const EVENTS = [
     ],
     "note": "版本维护 10/15 06:00–12:00；核心章节内容自 10/29 起陆续开放。预计 11/25 版本更新，结束时间以官方公告为准。",
     "source": "https://endfield.hypergryph.com/news/6094"
+  },
+  {
+    "id": "ef-wanwu",
+    "game": "endfield",
+    "type": "banner",
+    "title": "特许寻访「万物更新」",
+    "subtitle": "6★ 祀",
+    "start": "2026-10-15T12:00:00+08:00",
+    "end": "2026-11-05T11:59:00+08:00",
+    "banners": [
+      {
+        "name": "祀",
+        "tag": "6★ 概率提升"
+      }
+    ],
+    "image": "data/images/endfield-ef-wanwu-1-0a2f2e0b.jpg",
+    "gallery": [
+      "data/images/endfield-ef-wanwu-1-0a2f2e0b.jpg"
+    ],
+    "details": [
+      "开放时间：2026/10/15 版本更新后 – 11/05 11:59（服务器时间）",
+      "6★ 概率提升干员：祀；全部可能出现的 6★：祀 / 提弗洛斯 / 梨诺 / 余烬 / 黎风 / 艾尔黛拉 / 别礼 / 骏卫",
+      "累计寻访 30 次额外获得 10 次加急招募，60 次获得寻访情报书 ×1"
+    ],
+    "requirements": "完成主线任务「第一章 - 进程Ⅰ - 基地解围」",
+    "note": "「万物有灵」限时签到及「作战演练」干员试用同期开放。",
+    "source": "https://endfield.hypergryph.com/news/8548"
   },
   {
     "id": "ef-sign-ling",
@@ -207,6 +234,23 @@ const EVENTS = [
     "source": "https://www.miyoushe.com/ys/article/79087188"
   },
   {
+    "id": "ak-hantu",
+    "game": "arknights",
+    "type": "event",
+    "title": "「冻土与火种」网页活动",
+    "subtitle": "网页活动 · 实物奖励",
+    "start": "2026-10-24T20:00:00+08:00",
+    "end": "2026-11-24T03:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：10/24 20:00 – 11/24 03:59",
+      "通过活动页面参与，有机会获取精美实物奖励"
+    ],
+    "rewards": "精美实物奖励（抽取）",
+    "note": "官网网页活动，活动链接见官方公告。",
+    "source": "https://ak.hypergryph.com/news/7353"
+  },
+  {
     "id": "ak-mid",
     "game": "arknights",
     "type": "banner",
@@ -223,17 +267,28 @@ const EVENTS = [
     "game": "endfield",
     "type": "banner",
     "title": "复刻寻访「汤汤」",
-    "subtitle": "6★ 干员复刻",
+    "subtitle": "6★ 干员复刻 · 重构寻访",
     "start": "2026-10-29T12:00:00+08:00",
-    "end": "2026-11-19T12:00:00+08:00",
+    "end": "2026-11-19T11:59:00+08:00",
     "banners": [
       {
         "name": "汤汤",
         "tag": "6★ 复刻"
       }
     ],
-    "note": "复刻寻访与「丹青渡」版本同步开放。",
-    "source": "https://www.taptap.cn/hashtag/%E5%8D%B1%E6%9C%BA%E5%90%88%E7%BA%A6"
+    "image": "data/images/endfield-ef-tangtang-1-0dc33d9f.png",
+    "gallery": [
+      "data/images/endfield-ef-tangtang-1-0dc33d9f.png"
+    ],
+    "details": [
+      "开放时间：2026/10/29 12:00 – 11/19 11:59（服务器时间）",
+      "「祖泉的新流」重构寻访<1>：6★ 干员【汤汤】概率提升，前 120 次寻访必定获得",
+      "同期「细枝申领」重构申领<1>：6★ 武器【落草（手铳）】概率提升"
+    ],
+    "rewards": "累计寻访可获得加急招募、汤汤的信物等",
+    "requirements": "完成主线任务「第一章 - 进程Ⅰ - 基地解围」",
+    "note": "「祖泉的新流」重构寻访<1>与「细枝申领」重构申领<1>同期开放，11/19 11:59 结束。",
+    "source": "https://endfield.hypergryph.com/news/3893"
   },
   {
     "id": "hsr-47-preview",
@@ -668,7 +723,7 @@ const EVENTS = [
     "type": "version",
     "title": "3.8「旧梦凋零的百合」",
     "subtitle": "版本周期 · 两期共鸣者集音",
-    "start": "2026-11-12T10:00:00+08:00",
+    "start": "2026-11-12T11:00:00+08:00",
     "end": "2026-12-22T03:59:00+08:00",
     "banners": [
       {
@@ -713,7 +768,7 @@ const EVENTS = [
     "type": "banner",
     "title": "3.8 上半集音",
     "subtitle": "莉莉 / 西格莉卡 / 仇远",
-    "start": "2026-11-12T10:00:00+08:00",
+    "start": "2026-11-12T11:00:00+08:00",
     "end": "2026-12-03T09:59:00+08:00",
     "banners": [
       {
@@ -731,6 +786,68 @@ const EVENTS = [
     ],
     "note": "莉莉配套专武「安魂」同步开启武器池。",
     "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5754"
+  },
+  {
+    "id": "wuwa-38-solaris",
+    "game": "wuwa",
+    "type": "event",
+    "title": "「第二索拉：未名之梦」",
+    "subtitle": "休闲活动 · 校园养成",
+    "start": "2026-11-12T11:00:00+08:00",
+    "end": "2026-12-21T11:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：3.8 版本更新后 – 2026/12/21 11:59（服务器时间）",
+      "第二索拉系列校园生活模拟玩法：规划日程、培养能力，与同伴共同迎接最终评定"
+    ],
+    "rewards": "星声 ×1200、羁旅印章「第二索拉毕业季」、头像「课间时光」",
+    "note": "3.8 版本主要休闲活动，详细规则见官方公告。",
+    "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+  },
+  {
+    "id": "wuwa-38-gift",
+    "game": "wuwa",
+    "type": "event",
+    "title": "「昔梦赠礼」七日签到",
+    "subtitle": "七日签到活动",
+    "start": "2026-11-12T11:00:00+08:00",
+    "end": "2026-12-21T03:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：3.8 版本更新后 – 2026/12/21 03:59（服务器时间）",
+      "每日登录游戏，即可前往活动界面领取对应天数的签到奖励"
+    ],
+    "note": "3.8 版本签到活动，奖励以游戏内活动页为准。",
+    "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+  },
+  {
+    "id": "ak-joint24",
+    "game": "arknights",
+    "type": "banner",
+    "title": "联合行动24",
+    "subtitle": "限时寻访 · 4 名 6★ 概率提升",
+    "start": "2026-11-15T16:00:00+08:00",
+    "end": "2026-11-29T03:59:00+08:00",
+    "banners": [
+      {
+        "name": "林",
+        "tag": "6★"
+      },
+      {
+        "name": "焰影苇草",
+        "tag": "6★"
+      },
+      {
+        "name": "赤刃明霄陈",
+        "tag": "6★"
+      },
+      {
+        "name": "可露希尔",
+        "tag": "6★"
+      }
+    ],
+    "note": "联合行动寻访，卡池内 6★ 仅包含上述干员；5★ 与 4★ 名单见 PRTS 卡池一览。",
+    "source": "https://m.prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88"
   },
   {
     "id": "zzz-33-paint",
@@ -782,6 +899,23 @@ const EVENTS = [
     "banners": [],
     "note": "11/19 04:00 开放后续 3 个协议空间，开放至版本更新维护前（预计 11/25），累计可领取嵌晶玉 ×1200 等奖励。",
     "source": "https://endfield.hypergryph.com/news/6094"
+  },
+  {
+    "id": "wuwa-38-lahai",
+    "game": "wuwa",
+    "type": "event",
+    "title": "「拉海洛方块・逆转」",
+    "subtitle": "休闲活动 · 旋转功能更新",
+    "start": "2026-11-19T04:00:00+08:00",
+    "end": "2026-12-03T03:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：2026/11/19 04:00 – 12/03 03:59（服务器时间）",
+      "「拉海洛方块」加入旋转功能，并新增隐藏玩法"
+    ],
+    "rewards": "星声 ×400、特级共鸣促剂 ×9、特级能源核心 ×6、特级密音筒 ×6、凝素高级物资箱・拉海洛 ×14 等",
+    "note": "活动今日 04:00 开启，详细规则见官方公告。",
+    "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
   },
   {
     "id": "gi-72-block",
@@ -847,8 +981,16 @@ const EVENTS = [
     "start": "2026-11-22T04:00:00+08:00",
     "end": "2026-12-06T03:59:00+08:00",
     "banners": [],
+    "details": [
+      "活动时间：11/22 04:00 – 12/06 03:59",
+      "活动关卡「圣巡之旅」「变革之路」「喀兰之心」：11/22 04:00 – 12/02 03:59",
+      "「喀兰贸易技术研发部」「神谕谜题」同步开放，观测站后勤处兑换至 12/06 03:59",
+      "轻量化复刻，继承此前活动关卡与首次掉落进度；活动结束后关卡于 12/06 04:00 常驻【曲谱】"
+    ],
+    "rewards": "干员「溯光星源」、喀兰贸易接待室家具（部分）、模组养成材料、寻访凭证、龙门币等",
+    "requirements": "通关主线 1-10",
     "note": "活动关卡「圣巡之旅」「变革之路」「喀兰之心」11/22 04:00 – 12/02 03:59 开放，喀兰贸易技术研发部同步开启。",
-    "source": "https://ak-webview.hypergryph.com/gameBulletin"
+    "source": "https://ak.hypergryph.com/news/2808"
   },
   {
     "id": "gi-72-p2",
@@ -924,5 +1066,55 @@ const EVENTS = [
     ],
     "note": "下半与 3.8 版本同期结束，结束时间以官方公告为准。",
     "source": "https://www.taptap.cn/hashtag/%E9%B8%A3%E6%BD%AE%E6%96%B0%E7%89%88%E6%9C%AC%E5%89%8D%E7%9E%BB"
+  },
+  {
+    "id": "wuwa-38-lollo",
+    "game": "wuwa",
+    "type": "event",
+    "title": "「呜呜企划・整备」",
+    "subtitle": "限时委托活动",
+    "start": "2026-12-03T10:00:00+08:00",
+    "end": "2026-12-17T03:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：2026/12/03 10:00 – 12/17 03:59（服务器时间）",
+      "完成每日任务获取「呜呜邮币」，兑换呜呜物流回赠的「助呜为乐」特别邮递"
+    ],
+    "rewards": "「助呜为乐」特别邮递",
+    "note": "3.8 版本限时委托活动，详细规则见官方公告。",
+    "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+  },
+  {
+    "id": "wuwa-38-dreamfield",
+    "game": "wuwa",
+    "type": "event",
+    "title": "「梦野寻奇」",
+    "subtitle": "战斗活动 · 荒寂梦野",
+    "start": "2026-12-03T10:00:00+08:00",
+    "end": "2026-12-21T03:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：2026/12/03 10:00 – 12/21 03:59（服务器时间）",
+      "探索白色守门人指引的「荒寂梦野」，查明门扉出现的原因"
+    ],
+    "rewards": "活动称号「穿越梦野之旅」等",
+    "note": "3.8 版本战斗活动，详细规则见官方公告。",
+    "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+  },
+  {
+    "id": "wuwa-38-wind",
+    "game": "wuwa",
+    "type": "event",
+    "title": "「风之所向」限时签到",
+    "subtitle": "限时登录活动",
+    "start": "2026-12-07T04:00:00+08:00",
+    "end": "2026-12-21T03:59:00+08:00",
+    "banners": [],
+    "details": [
+      "活动时间：2026/12/07 04:00 – 12/21 03:59（服务器时间）",
+      "活动期间每日登录游戏，前往活动界面领取对应天数奖励"
+    ],
+    "note": "3.8 版本后半段登录活动，奖励以游戏内活动页为准。",
+    "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
   }
 ];
