@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070a11">
+<title>六游戏养成材料汇总</title>
+<link rel="stylesheet" href="/web/css/growth.css">
+</head>
+<body>
+<div class="g-page">
+  <header class="g-top">
+    <div>
+      <h1>六游戏养成材料</h1>
+      <p>桌面版 · 只收录可核实的材料数据；找不到的明确标注，不编造。</p>
+    </div>
+    <nav class="g-nav">
+      <a href="/web/calendar-desktop.html">桌面日历</a>
+      <a href="/web/calendar-mobile.html">移动日历</a>
+    </nav>
+  </header>
+
+  <section class="g-summary" id="gSummary">
+    <div class="g-stat"><b>2 / 6</b><span>已收录游戏</span></div>
+    <div class="g-stat"><b id="gOpCount">—</b><span>收录角色</span></div>
+    <div class="g-stat"><b>观测枢 · PRTS</b><span>材料来源</span></div>
+    <div class="g-note">原神、明日方舟已收录；其余四款的官方站点未提供可匿名批量读取的全角色材料接口，页面只做明确提示，不补猜测数据。</div>
+  </section>
+
+  <nav class="g-tabs" id="gTabs"></nav>
+
+  <section class="g-calc" id="gCalc" style="display:none"></section>
+
+  <main id="gMain">
+    <div class="g-loading">正在读取养成材料数据…</div>
+  </main>
+
+  <footer class="g-foot">
+    数据更新 <b id="gUpdated">—</b> · 材料来源
+    <a href="https://baike.mihoyo.com/ys/obc/channel/map/189/25" target="_blank" rel="noopener">米游社观测枢</a>
+    <a href="https://prts.wiki/" target="_blank" rel="noopener">PRTS Wiki</a> ·
+    数量保留原始写法（w = 万）
+  </footer>
+</div>
+
+<div class="g-backdrop" id="gBackdrop"></div>
+<script src="/web/js/growth.js"></script>
+</body>
+</html>

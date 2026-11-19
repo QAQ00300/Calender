@@ -29,7 +29,7 @@ function lanAddress() {
   return '127.0.0.1';
 }
 
-function createServer(defaultFile) {
+function createServer(defaultFile, rewrites = {}) {
   return http.createServer((req, res) => {
     let pathname;
     try {
@@ -41,6 +41,7 @@ function createServer(defaultFile) {
     }
 
     if (pathname === '/') pathname = '/' + defaultFile;
+    if (rewrites[pathname]) pathname = '/' + rewrites[pathname];
     const filePath = path.resolve(ROOT, '.' + pathname);
     if (!filePath.startsWith(ROOT + path.sep) && filePath !== ROOT) {
       res.writeHead(403);
@@ -67,8 +68,8 @@ function createServer(defaultFile) {
 const lan = lanAddress();
 const servers = [];
 
-function listen(port, defaultFile, label) {
-  const server = createServer(defaultFile);
+function listen(port, defaultFile, label, rewrites) {
+  const server = createServer(defaultFile, rewrites);
   server.on('error', (err) => {
     if (err.code === 'EADDRINUSE') console.error(`端口 ${port} 已被占用，无法启动 ${label}`);
     else console.error(`${label} 启动失败：`, err.message);
@@ -79,8 +80,22 @@ function listen(port, defaultFile, label) {
   servers.push(server);
 }
 
-listen(8001, 'index.html', '桌面版');
-listen(8002, 'h5.html', '移动 H5');
+const legacyRewrites = {
+  '/index.html': 'web/calendar-desktop.html',
+  '/h5.html': 'web/calendar-mobile.html',
+  '/growth.html': 'web/growth-desktop.html',
+  '/growth-h5.html': 'web/growth-mobile.html'
+};
+
+listen(8001, 'web/calendar-desktop.html', '桌面版', {
+  ...legacyRewrites,
+  '/growth': 'web/growth-desktop.html'
+});
+listen(8002, 'web/calendar-mobile.html', '移动版', {
+  ...legacyRewrites,
+  '/growth': 'web/growth-mobile.html',
+  '/growth.html': 'web/growth-mobile.html'
+});
 
 process.on('SIGINT', () => {
   servers.forEach((s) => s.close());

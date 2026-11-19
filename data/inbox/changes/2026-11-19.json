@@ -1,0 +1,252 @@
+{
+  "checkedAt": "2026-11-19T14:25:10",
+  "inbox": "data/inbox/2026-11-19.json",
+  "baseline": false,
+  "totalCandidates": 40,
+  "newCount": 0,
+  "oldCount": 40,
+  "byGame": {},
+  "new": [],
+  "old": [
+    {
+      "game": "genshin",
+      "title": "「压力方块粉碎计划」活动：挖掘挑战",
+      "publishedAt": "2026-11-18",
+      "reason": "已处理过"
+    },
+    {
+      "game": "genshin",
+      "title": "《原神》7.2版本表情包「派蒙的画作第54弹」现已上线",
+      "publishedAt": "2026-11-16",
+      "reason": "已处理过"
+    },
+    {
+      "game": "genshin",
+      "title": "原神千星奇域「奇域更新速报」",
+      "publishedAt": "2026-11-13",
+      "reason": "已处理过"
+    },
+    {
+      "game": "genshin",
+      "title": "「幽境危战」活动：紊乱地脉挑战",
+      "publishedAt": "2026-11-09",
+      "reason": "已处理过"
+    },
+    {
+      "game": "hsr",
+      "title": "听歌领80星琼！歌曲「无中生有」音乐活动正式上线",
+      "publishedAt": "2026-11-12",
+      "reason": "已处理过"
+    },
+    {
+      "game": "hsr",
+      "title": "5.5版本 | 故事之外，有谁还在",
+      "publishedAt": "2026-11-12",
+      "reason": "已处理过"
+    },
+    {
+      "game": "hsr",
+      "title": "4.7版本游戏优化及已知问题说明（11/18更新）",
+      "publishedAt": "2026-11-11",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目预告",
+      "publishedAt": "2026-11-16",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "「修复吧！漂流画集」活动说明",
+      "publishedAt": "2026-11-13",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "重返天空的旅程丨3.3版本内容一览（下期）",
+      "publishedAt": "2026-11-11",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "3.3版本「商城」上新说明",
+      "publishedAt": "2026-11-10",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "「『嗯呢』从天降」活动说明",
+      "publishedAt": "2026-11-09",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "「跛脚乌鸦奇踪记」活动说明",
+      "publishedAt": "2026-11-09",
+      "reason": "已处理过"
+    },
+    {
+      "game": "zzz",
+      "title": "3.3版本限时频段（下期）",
+      "publishedAt": "2026-11-09",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[活动预告]SideStory「雪山降临1101」复刻即将开启",
+      "publishedAt": "2026-11-17",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[明日方舟]11月16日16:00闪断更新公告",
+      "publishedAt": "2026-11-16",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "「时间啊，向前！」创作征集活动开启",
+      "publishedAt": "2026-11-01",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[明日方舟]11月01日06:00版本更新停机维护公告",
+      "publishedAt": "2026-10-30",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "《冻土与火种》网页活动开启",
+      "publishedAt": "2026-10-24",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[活动预告]2026感谢庆典即将开启",
+      "publishedAt": "2026-10-24",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[限定寻访·庆典]【将雪投火】限时寻访即将开启",
+      "publishedAt": "2026-10-24",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[明日方舟]10月24日21:30闪断更新公告",
+      "publishedAt": "2026-10-24",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[明日方舟]10月16日16:00闪断更新公告",
+      "publishedAt": "2026-10-16",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "【明日方舟×国家图书馆】「恒远津梁」限时活动即将开启",
+      "publishedAt": "2026-10-11",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[明日方舟]10月09日06:00版本更新停机维护公告",
+      "publishedAt": "2026-10-07",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[活动预告]SideStory「昨日海」限时活动即将开启",
+      "publishedAt": "2026-10-03",
+      "reason": "已处理过"
+    },
+    {
+      "game": "arknights",
+      "title": "[明日方舟]09月29日16:00闪断更新公告",
+      "publishedAt": "2026-09-29",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「烟火邀星河」特许寻访说明",
+      "publishedAt": "2026-11-04",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「丹青渡」版本更新说明",
+      "publishedAt": "2026-10-15",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「丹青渡」新版本导览上线，浏览领嵌晶玉！",
+      "publishedAt": "2026-10-06",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「祖泉的新流」重构寻访<1>与「细枝申领」重构申领<1>开放",
+      "publishedAt": "2026-10-28",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「丹青渡」版本创作征集活动进行中",
+      "publishedAt": "2026-10-16",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「万物更新」特许寻访说明",
+      "publishedAt": "2026-10-14",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「丹青渡」版本预下载与更新预告",
+      "publishedAt": "2026-10-13",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「丹青渡」版本研发通讯",
+      "publishedAt": "2026-10-07",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「融合！山团团！」趣味活动说明",
+      "publishedAt": "2026-09-30",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「绚丽异彩」重构寻访#1与「点绘申领」重构申领#1开放",
+      "publishedAt": "2026-09-23",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「雪凇幽梦」版本更新说明",
+      "publishedAt": "2026-09-02",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「冬猎」特许寻访说明",
+      "publishedAt": "2026-09-01",
+      "reason": "已处理过"
+    },
+    {
+      "game": "endfield",
+      "title": "「雪凇幽梦」版本预下载与更新预告",
+      "publishedAt": "2026-08-31",
+      "reason": "已处理过"
+    }
+  ]
+}

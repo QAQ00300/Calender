@@ -1,2 +1,7 @@
 # 本地图片素材（活动图 / 抓取候选图），不纳入仓库
 data/images/
+
+# Python 运行产物
+__pycache__/
+*.pyc
+logs/

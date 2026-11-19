@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "sources": {
+    "米游社 原神官方": {
+      "lastPublish": "2026-11-18",
+      "seen": {
+        "https://www.miyoushe.com/ys/article/79640409": "2026-11-18",
+        "https://www.miyoushe.com/ys/article/79603552": "2026-11-16",
+        "https://www.miyoushe.com/ys/article/79539078": "2026-11-13",
+        "https://www.miyoushe.com/ys/article/79448861": "2026-11-09"
+      }
+    },
+    "米游社 星铁官方": {
+      "lastPublish": "2026-11-12",
+      "seen": {
+        "https://www.miyoushe.com/sr/article/79519029": "2026-11-12",
+        "https://www.miyoushe.com/sr/article/79517070": "2026-11-12",
+        "https://www.miyoushe.com/sr/article/79504324": "2026-11-11"
+      }
+    },
+    "米游社 绝区零官方": {
+      "lastPublish": "2026-11-16",
+      "seen": {
+        "https://www.miyoushe.com/zzz/article/79603551": "2026-11-16",
+        "https://www.miyoushe.com/zzz/article/79539085": "2026-11-13",
+        "https://www.miyoushe.com/zzz/article/79488227": "2026-11-11",
+        "https://www.miyoushe.com/zzz/article/79467092": "2026-11-10",
+        "https://www.miyoushe.com/zzz/article/79450962": "2026-11-09",
+        "https://www.miyoushe.com/zzz/article/79450779": "2026-11-09",
+        "https://www.miyoushe.com/zzz/article/79450581": "2026-11-09"
+      }
+    },
+    "明日方舟 官网公告 API": {
+      "lastPublish": "2026-11-17",
+      "seen": {
+        "https://ak.hypergryph.com/news/2808": "2026-11-17",
+        "https://ak.hypergryph.com/news/6230": "2026-11-16",
+        "https://ak.hypergryph.com/news/7352": "2026-11-01",
+        "https://ak.hypergryph.com/news/1440": "2026-10-30",
+        "https://ak.hypergryph.com/news/7353": "2026-10-24",
+        "https://ak.hypergryph.com/news/0787": "2026-10-24",
+        "https://ak.hypergryph.com/news/4916": "2026-10-24",
+        "https://ak.hypergryph.com/news/1441": "2026-10-24",
+        "https://ak.hypergryph.com/news/3020": "2026-10-16",
+        "https://ak.hypergryph.com/news/1454": "2026-10-11",
+        "https://ak.hypergryph.com/news/6242": "2026-10-07",
+        "https://ak.hypergryph.com/news/5101": "2026-10-03",
+        "https://ak.hypergryph.com/news/8577": "2026-09-29"
+      }
+    },
+    "终末地 官网公告 API": {
+      "lastPublish": "2026-11-04",
+      "seen": {
+        "https://endfield.hypergryph.com/news/7204": "2026-11-04",
+        "https://endfield.hypergryph.com/news/6094": "2026-10-15",
+        "https://endfield.hypergryph.com/news/4774": "2026-10-06",
+        "https://endfield.hypergryph.com/news/3893": "2026-10-28",
+        "https://endfield.hypergryph.com/news/9326": "2026-10-16",
+        "https://endfield.hypergryph.com/news/8548": "2026-10-14",
+        "https://endfield.hypergryph.com/news/2650": "2026-10-13",
+        "https://endfield.hypergryph.com/news/3805": "2026-10-07",
+        "https://endfield.hypergryph.com/news/5987": "2026-09-30",
+        "https://endfield.hypergryph.com/news/2651": "2026-09-23",
+        "https://endfield.hypergryph.com/news/2653": "2026-09-02",
+        "https://endfield.hypergryph.com/news/6097": "2026-09-01",
+        "https://endfield.hypergryph.com/news/1164": "2026-08-31"
+      }
+    }
+  },
+  "updatedAt": "2026-11-19T14:25:10",
+  "lastRun": "2026-11-19T14:25:10"
+}

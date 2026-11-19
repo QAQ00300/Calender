@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
+<base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>游戏活动日历 · 原神 / 星铁 / 绝区零 / 终末地 / 明日方舟 / 鸣潮</title>
 <style>
@@ -569,6 +570,7 @@
     </div>
 
     <div class="toolbar-right">
+      <a class="btn-ghost" href="/growth" style="text-decoration:none">养成汇总</a>
       <button class="btn-ghost" id="adminBtn">数据维护<i class="local-dot hidden" id="localDot"></i></button>
       <div class="seg" id="viewToggle">
         <button data-view="month" class="on">月历</button>
@@ -629,7 +631,7 @@
   <a class="lb-open" id="lbOpen" target="_blank" rel="noopener">在新标签页查看原图 ↗</a>
 </div>
 
-<script src="data.js"></script>
-<script src="app.js"></script>
+<script src="/data.js"></script>
+<script src="/web/js/calendar-desktop.js"></script>
 </body>
 </html>
