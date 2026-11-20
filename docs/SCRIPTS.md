@@ -7,10 +7,13 @@
 | 脚本 | 作用 | 主要输出 |
 |---|---|---|
 | `scripts/fetch.mjs` | 抓取六个游戏的官方公告候选 | `data/inbox/YYYY-MM-DD.json` |
+| `scripts/fetch-fgo.mjs` | 抓取 FGO 国服公告，解析活动 / 卡池日期并下载配图 | `data/fgo.json`、`data/images/fgo/` |
 | `scripts/fetch-images.mjs` | 把活动图 / 候选图下载到本地并改写路径 | `data/images/`、更新游戏 JSON 与 inbox |
-| `scripts/build.mjs` | 合并六个游戏 JSON，校验后生成页面数据 | `data.js` |
+| `scripts/build.mjs` | 合并各游戏 JSON，校验后生成页面数据 | `data.js` |
 | `scripts/fetch-genshin-materials.mjs` | 从米游社观测枢抓取全角色突破 / 天赋材料 | `data/growth/genshin.json` |
 | `scripts/fetch-genshin-images.mjs` | 下载原神头像、天赋图标和材料图标 | `data/images/growth/genshin/`、更新 JSON |
+| `scripts/fetch-genshin-weapons.mjs` | 从观测枢抓取全武器 1 → 90 总需求与阶段突破材料 | `data/growth/genshin-weapons.json` |
+| `scripts/fetch-genshin-weapon-images.mjs` | 下载武器图标与材料图标 | `data/images/growth/genshin/weapons/`、更新 JSON |
 | `scripts/fetch-arknights-materials.mjs` | 从 PRTS 抓取全干员精英化 / 技能材料 | `data/growth/arknights.json` |
 | `scripts/fetch-arknights-images.mjs` | 下载干员头像和材料图标，按精确名称匹配 | `data/images/growth/arknights/`、更新 JSON |
 | `scripts/update_pipeline.py` | 单次执行上述流程，可先做增量检测；供任务计划 / cron 调用 | 更新数据 + `logs/pipeline-*.log` + `data/inbox/changes/` |
@@ -22,6 +25,9 @@ flowchart LR
   A[fetch.mjs] --> B[data/inbox]
   B --> C[fetch-images.mjs]
   C --> D[data/images]
+  AB[FGO 国服公告] --> AC[fetch-fgo.mjs]
+  AC --> AD[data/fgo.json]
+  AC --> AE[data/images/fgo]
   E[data/游戏.json] --> C
   C --> E
   E --> F[build.mjs]
@@ -34,6 +40,10 @@ flowchart LR
   N --> O[data/growth/genshin.json]
   O --> P[fetch-genshin-images.mjs]
   P --> Q[data/images/growth/genshin]
+  M --> R[fetch-genshin-weapons.mjs]
+  R --> S[data/growth/genshin-weapons.json]
+  S --> T[fetch-genshin-weapon-images.mjs]
+  T --> U[data/images/growth/genshin/weapons]
 ```
 
 ## 2. 数据目录
@@ -47,6 +57,7 @@ data/
   endfield.json              终末地行程
   arknights.json             明日方舟行程
   wuwa.json                  鸣潮行程
+  fgo.json                   FGO 国服活动 / 卡池
   inbox/
     YYYY-MM-DD.json          当天抓取的公告候选
     state.json               增量检测状态：各来源 publish 水位 + 已见公告 URL
@@ -56,6 +67,7 @@ data/
   growth/
     arknights.json           466 名干员的材料、头像、图标路径
     genshin.json             129 名角色的材料、头像、天赋图标路径
+    genshin-weapons.json     253 把武器的 1 → 90 总需求与阶段突破材料
 data.js                      构建产物，页面实际加载，不要手改
 ```
 
@@ -73,7 +85,28 @@ data.js                      构建产物，页面实际加载，不要手改
 - 输出：`data/inbox/当天日期.json`，包含 `sources`（抓取状态）和 `candidates`（候选公告）。
 - 只负责“找候选”，新增/修正活动仍需要人（或 Trae 定时任务）审核后写入各游戏 JSON。
 
-### 3.2 `fetch-images.mjs`
+### 3.2 `fetch-fgo.mjs`
+
+职责：从 FGO 国服官网公告生成活动 / 卡池行程，直接写入 `data/fgo.json`。
+
+- 列表接口：
+  `https://api.biligame.com/news/list.action?gameExtensionId=45&positionId=2&pageNum=<n>&pageSize=50&typeId=1`
+  - 读取前 4 页共 200 条公告；
+  - `typeId=1` 是“公告”频道，FGO 国服的活动和卡池都发在这里。
+- 详情接口：`https://api.biligame.com/news/<id>.action`，取 `content` 正文。
+- 分类：
+  - 标题含“推荐召唤 / 卡池” → `banner`；
+  - 标题含“活动 / 举办 / 开幕 / 纪念 / 兑换券 / 登录奖励” → `event`；
+  - 维护公告只用于提取维护结束时间，不生成行程。
+- 日期：
+  - 从正文提取类似 `2026年11月24日（周二）维护后~12月10日（周四）13:59为止` 的区间；
+  - “维护后”会查维护公告里的结束时间，例如 11/24 19:00；
+  - 未给出结束时间时按 23:59；跨年自动补年。
+- 过滤：只保留结束时间在 45 天内、开始时间在 180 天内的行程。
+- 图片：正文前 3 张图下载到 `data/images/fgo/fgo-<公告id>-<序号>.<ext>`，写入 `image` / `gallery`。
+- 输出：`data/fgo.json`，`game` 为 `fgo`，类型只使用 `event` / `banner`。
+
+### 3.3 `fetch-images.mjs`
 
 职责：把远程图片本地化，避免页面依赖外部图床。
 
@@ -87,9 +120,9 @@ data.js                      构建产物，页面实际加载，不要手改
   - 把 `images` 和 `localImages` 都改写为本地路径；下载失败的远程地址会被丢弃，不让候选数据继续依赖外链。
 - 已存在的非空文件会跳过，重复运行不会重复下载。
 
-### 3.3 `build.mjs`
+### 3.4 `build.mjs`
 
-职责：把六个游戏 JSON 合并成 `data.js`，并做构建前校验。
+职责：把各游戏 JSON 合并成 `data.js`，并做构建前校验。
 
 校验项：
 
@@ -159,6 +192,7 @@ data.js                      构建产物，页面实际加载，不要手改
    - `role_ascension` 第一个标签页是 1 → 90 级突破总消耗，含摩拉；
    - 20 / 40 / 50 / 60 / 70 / 80 级突破标签分别作为 `ascensions` 的阶段材料；
    - `role_talent` 中带“升级材料”的普通攻击 / 元素战技 / 元素爆发标签，保存 1 → 10 级总需求 `materials` 和逐级需求 `levels`；
+   - `recommend` 的“武器推荐”表保存武器名、图标、推荐理由到 `recommendedWeapons`；
    - `timeline_base_info` 的“角色登场”标签解析上线日期。
 3. 角色升级的经验 / 摩拉 / 经验书按标准阶段表计算：
    - 1 → 90 总经验 8,362,650，升级摩拉为经验的 20%；
@@ -172,9 +206,29 @@ data.js                      构建产物，页面实际加载，不要手改
    - `data/images/growth/genshin/materials/gs-mat-<hash>.png`
 6. 图片按 URL 哈希命名，同一材料只下载一次；失败时删除对应图标字段，页面不会引用远程图片。
 
-当前结果：129 名角色、129 个头像、375 个天赋图标、329 个材料图标，未残留远程图片。
+当前结果：129 名角色、129 个头像、375 个天赋图标、329 个材料图标、917 次推荐武器图标引用，未残留远程图片。
 
-### 4.4 页面侧
+### 4.4 原神武器：观测枢
+
+`fetch-genshin-weapons.mjs` 和 `fetch-genshin-weapon-images.mjs` 负责武器材料表。
+
+机制：
+
+1. 武器列表读取观测枢频道 5：
+   `.../common/blackboard/ys_obc/v1/home/content/list?app_sn=ys_obc&channel_id=5`
+   - 返回 253 条，按名称去重后仍为 253 条；
+   - 从 `ext` 解析星级、武器类型、属性加成、获取途径。
+2. 武器详情读取同一个 `entry_page` 接口：
+   - `equipment_growth_info.list[0]` 是“1级”标签，包含 1 → 90 的总需求，含精锻用魔矿与摩拉；
+   - 20 / 40 / 50 / 60 / 70 / 80 级标签分别保存为 `ascensions` 阶段材料；
+   - 90 级标签只做属性展示，不写入材料。
+3. 输出 `data/growth/genshin-weapons.json`：武器数组，含 `rarity`、`type`、`attribute`、`obtain`、`total`、`ascensions`。
+4. 图片下载到：
+   - `data/images/growth/genshin/weapons/gs-weapon-<hash>.png`
+   - 材料图标复用 `data/images/growth/genshin/materials/gs-mat-<hash>.png`
+5. 当前结果：253 把武器、253 个武器图标，材料图标引用 7470 次，未残留远程图片。
+
+### 4.5 页面侧
 
 养成页与日历一样拆成两套，共用 `web/js/growth.js` / `web/css/growth.css`，通过 `window.GROWTH_MODE` 和 `.h5-mode` 区分：
 
@@ -186,11 +240,14 @@ data.js                      构建产物，页面实际加载，不要手改
 两个页面同时读取：
 
 - `/data/growth/genshin.json`
+- `/data/growth/genshin-weapons.json`
 - `/data/growth/arknights.json`
 
 页面行为：
 
-- “原神养成计算器”只在该游戏 tab 下显示，位置在游戏选择栏下方：选择角色，输入大英雄的经验和摩拉，按 1 → 90 逐级累计经验表估算可达等级，并显示消耗、剩余和下一级所需；默认突破材料充足，不计入天赋。
+- 原神 tab 下提供“角色 / 武器”切换；武器支持星级、武器类型筛选和名称搜索，详情展示 1 → 90 总需求（含精锻用魔矿、摩拉）与 20 / 40 / 50 / 60 / 70 / 80 级阶段突破材料。
+- 原神角色详情底部展示“推荐武器”：武器图标、名称、推荐理由；点击任意推荐武器会切到武器模式并直接打开该武器详情。
+- “原神养成计算器”只在原神“角色”模式下显示，位置在游戏选择栏下方：选择角色，输入大英雄的经验和摩拉，按 1 → 90 逐级累计经验表估算可达等级，并显示消耗、剩余和下一级所需；默认突破材料充足，不计入天赋。
 - 默认按 `release` 倒序，最近上线的角色在最上面。
 - 排序按钮可切换“新→旧 / 旧→新”。
 - 原神支持名称搜索、星级 / 元素 / 武器筛选；明日方舟支持名称搜索、星级 / 职业筛选。
@@ -231,15 +288,17 @@ py -3.12 scripts\update_pipeline.py --dry-run
 
 增量检测（`--incremental`）：
 
-1. 先运行 `fetch.mjs`，得到当天的 `data/inbox/YYYY-MM-DD.json`。
+1. 先运行 `fetch.mjs` 得到当天的 `data/inbox/YYYY-MM-DD.json`，再运行 `fetch-fgo.mjs` 直接更新 `data/fgo.json`。
 2. 读取 `data/inbox/state.json`，按来源比较公告的 `dateHint`（官方发布时间）：
    - URL 已记录 → 跳过；
    - 发布时间早于该来源的水位 → 跳过；
    - 其余视为新增。
 3. 水位更新为该来源本次看到的发布日期最大值；已见 URL 保留 180 天。
 4. 检测报告写入 `data/inbox/changes/YYYY-MM-DD.json`，包含新增列表、跳过原因和各游戏数量。
-5. 只有新增数量大于 0 时才继续下载图片、构建 `data.js`；否则直接结束，避免每天重复下载和构建。
+5. 米游社新增数量大于 0 时才继续下载候选图；`build.mjs` 每天都会执行，以便纳入 FGO 的新公告。
 6. 首次运行没有水位，会把当前候选作为基线写入状态，并正常走一遍图片本地化与构建。
+
+> FGO 是直接从国服公告解析成行程，不经过 inbox 的人工审核；解析失败或日期缺失的公告会被跳过。
 
 > 检测只判断“官网有没有发新公告”，不会把公告自动变成日历事件；新增候选供人工或 Trae 审核后再写入 `data/<游戏>.json`。
 

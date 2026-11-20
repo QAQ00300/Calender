@@ -1,6 +1,6 @@
 {
   "game": "zzz",
-  "updated": "2026-11-18",
+  "updated": "2026-11-20",
   "events": [
     {
       "id": "zzz-33-version",
@@ -91,6 +91,11 @@
       "end": "2026-11-20T23:59:00+08:00",
       "banners": [],
       "image": "data/images/zzz-zzz-34-preview-1-f91124b5.jpg",
+      "details": [
+        "播出时间：2026/11/20 18:30",
+        "本期披露「挽昼」「卡芙卡」「知更鸟」的最新情报",
+        "节目期间发放兑换码，并抽取幸运绳匠送出神秘礼品"
+      ],
       "note": "11/20 18:30 播出，届时公布 3.4 卡池与前瞻兑换码。",
       "source": "https://www.miyoushe.com/zzz/article/79603551",
       "gallery": [

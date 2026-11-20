@@ -1,6 +1,6 @@
 {
   "game": "wuwa",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "events": [
     {
       "id": "wuwa-38-preview",
@@ -228,6 +228,24 @@
       ],
       "note": "3.8 版本后半段登录活动，奖励以游戏内活动页为准。",
       "source": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/5783"
+    },
+    {
+      "id": "wuwa-39-version",
+      "game": "wuwa",
+      "type": "version",
+      "title": "年度篇章「永明的烬焰」",
+      "subtitle": "新联邦 · 12/22 开启",
+      "start": "2026-12-22T11:00:00+08:00",
+      "end": null,
+      "banners": [],
+      "codes": [],
+      "details": [
+        "官方公布：年度篇章将于 2026/12/22 开启",
+        "预约专题页已上线，完成预约并在新版本开启后登录可领取星声",
+        "具体开服时间与版本内容以官方更新维护公告为准"
+      ],
+      "note": "3.8 版本将于 12/22 03:59 结束；开服时间暂按官方维护惯例记为 11:00，待维护公告确认。",
+      "source": "https://newfederation.kurogames-global.com/"
     }
   ]
 }

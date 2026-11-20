@@ -87,6 +87,45 @@ function addHTMLMaterials(cell, map) {
   }
 }
 
+function textOfHTML(html) {
+  return String(html || '')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<\/p>/gi, ' ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function weaponEntryOf(html) {
+  const m = String(html || '').match(/<span class="custom-entry-wrapper"([^>]*)>/);
+  if (!m) return null;
+  const attrs = m[1];
+  const name = (/data-entry-name="([^"]+)"/.exec(attrs) || [])[1];
+  if (!name) return null;
+  return {
+    name: name.trim(),
+    entryId: Number((/data-entry-id="([^"]+)"/.exec(attrs) || [])[1] || 0),
+    icon: (/data-entry-img="([^"]+)"/.exec(attrs) || [])[1] || ''
+  };
+}
+
+function recommendedWeaponsOf(recommend) {
+  const table = (recommend.tables || []).find((t) => /武器/.test(String(t.tab_name || '')));
+  if (!table) return [];
+  return (table.row || []).map((row) => {
+    const weapon = weaponEntryOf(row[0]);
+    if (!weapon) return null;
+    return {
+      name: weapon.name,
+      entryId: weapon.entryId,
+      icon: weapon.icon,
+      reason: textOfHTML(row[1])
+    };
+  }).filter(Boolean);
+}
+
 function levelsOf(tab) {
   const row = (tab.attr?.row || []).find((r) => String(r[0]).includes('升级材料'));
   if (!row) return [];
@@ -260,6 +299,7 @@ async function main() {
         ascension: materialsOf(ascension.list?.[0]?.materials),
         ascensions: ascensionsOf(ascension),
         talents: talentsOf(talent),
+        recommendedWeapons: recommendedWeaponsOf(comp('recommend')),
         source: '米游社观测枢'
       });
       if ((i + 1) % 20 === 0) console.log(`  已读取 ${i + 1} / ${picks.length}`);

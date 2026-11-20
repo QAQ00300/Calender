@@ -1,0 +1,1613 @@
+{
+  "game": "fgo",
+  "updated": "2026-11-20",
+  "events": [
+    {
+      "id": "fgo-18232",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.1]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-08-11T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-08-11 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-08-08 23:00:10"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18232",
+      "image": "data/images/fgo/fgo-18232-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18232-1.png",
+        "data/images/fgo/fgo-18232-2.png",
+        "data/images/fgo/fgo-18232-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18252",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.2]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-08-18T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-08-18 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-08-13 17:22:50"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18252",
+      "image": "data/images/fgo/fgo-18252-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18252-1.png",
+        "data/images/fgo/fgo-18252-2.png",
+        "data/images/fgo/fgo-18252-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18267",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.3]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-08-25T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-08-25 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-08-21 10:59:49"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18267",
+      "image": "data/images/fgo/fgo-18267-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18267-1.png",
+        "data/images/fgo/fgo-18267-2.png",
+        "data/images/fgo/fgo-18267-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18289",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.4]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-09-01T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-09-01 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-08-27 16:22:34"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18289",
+      "image": "data/images/fgo/fgo-18289-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18289-1.png",
+        "data/images/fgo/fgo-18289-2.png",
+        "data/images/fgo/fgo-18289-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18319",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.5]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-09-08T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-09-08 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-09-04 14:48:56"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18319",
+      "image": "data/images/fgo/fgo-18319-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18319-1.png",
+        "data/images/fgo/fgo-18319-2.png",
+        "data/images/fgo/fgo-18319-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18344",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.6]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-09-15T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-09-15 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-09-11 14:33:44"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18344",
+      "image": "data/images/fgo/fgo-18344-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18344-1.png",
+        "data/images/fgo/fgo-18344-2.png",
+        "data/images/fgo/fgo-18344-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18384",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Lostbelt No.7]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-09-22T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-09-22 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-09-20 16:17:40"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18384",
+      "image": "data/images/fgo/fgo-18384-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18384-1.png",
+        "data/images/fgo/fgo-18384-2.png",
+        "data/images/fgo/fgo-18384-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18398",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「唠唠叨叨新选组 THE END 河上彦斋推荐召唤」",
+      "subtitle": "河上彦斋 · 京乱怒涛 · 河上彦斋」「★4（SR）藤堂平助」和3种限时概念",
+      "start": "2026-09-24T19:00:00+08:00",
+      "end": "2026-10-22T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "河上彦斋",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "京乱怒涛",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "河上彦斋」「★4（SR）藤堂平助」和3种限时概念",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "河上彦斋」的简易灵衣「无笠的彦斋」的开放权登场！",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-09-24 19:00 – 2026-10-22 13:59",
+        "公告发布时间：2026-09-22 14:47:01"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18398",
+      "image": "data/images/fgo/fgo-18398-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18398-1.png",
+        "data/images/fgo/fgo-18398-2.png",
+        "data/images/fgo/fgo-18398-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18397",
+      "game": "fgo",
+      "type": "event",
+      "title": "「幕末武斗神话 唠唠叨叨新选组 THE END REVENGE OF MAKOTO」",
+      "subtitle": "国服限时活动",
+      "start": "2026-09-24T19:00:00+08:00",
+      "end": "2026-10-15T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-09-24 19:00 – 2026-10-15 13:59",
+        "公告发布时间：2026-09-22 14:43:07"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18397",
+      "image": "data/images/fgo/fgo-18397-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18397-1.png",
+        "data/images/fgo/fgo-18397-2.png",
+        "data/images/fgo/fgo-18397-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18399",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「唠唠叨叨新选组 THE END推荐召唤2」",
+      "subtitle": "土方岁三 · 冲田总司（Saber） · 土方岁三」「★5（SSR）冲田总司（Saber）",
+      "start": "2026-09-26T19:00:00+08:00",
+      "end": "2026-10-15T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "土方岁三",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "冲田总司（Saber）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "土方岁三」「★5（SSR）冲田总司（Saber）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "土方岁三」的灵衣「浅葱羽织袴」的开放权登场！",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-09-26 19:00 – 2026-10-15 13:59",
+        "公告发布时间：2026-09-22 15:04:12"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18399",
+      "image": "data/images/fgo/fgo-18399-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18399-1.png",
+        "data/images/fgo/fgo-18399-2.png",
+        "data/images/fgo/fgo-18399-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18400",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Ordeal Call I]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-09-29T19:00:00+08:00",
+      "end": "2026-12-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-09-29 19:00 – 2026-12-20 13:59",
+        "公告发布时间：2026-09-22 15:07:09"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18400",
+      "image": "data/images/fgo/fgo-18400-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18400-1.png",
+        "data/images/fgo/fgo-18400-2.png",
+        "data/images/fgo/fgo-18400-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18406",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「唠唠叨叨新选组 THE END 近藤勇推荐召唤」",
+      "subtitle": "近藤勇 · 京乱怒涛 · 近藤勇」「★4（SR）藤堂平助」和3种限时概念礼",
+      "start": "2026-09-30T19:00:00+08:00",
+      "end": "2026-10-15T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "近藤勇",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "京乱怒涛",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "近藤勇」「★4（SR）藤堂平助」和3种限时概念礼",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "近藤勇」的简易灵衣「白之虎彻」的开放权登场！",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-09-30 19:00 – 2026-10-15 13:59",
+        "公告发布时间：2026-09-24 11:04:21"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18406",
+      "image": "data/images/fgo/fgo-18406-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18406-1.png",
+        "data/images/fgo/fgo-18406-2.png",
+        "data/images/fgo/fgo-18406-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18407",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「唠唠叨叨新选组 THE END推荐召唤4」",
+      "subtitle": "织田信长（魔王信长） · 坂本龙马（Lancer） · 魔王信长（织田信长）",
+      "start": "2026-10-03T19:00:00+08:00",
+      "end": "2026-10-12T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "织田信长（魔王信长）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "坂本龙马（Lancer）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "魔王信长（织田信长）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "织田信长",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-03 19:00 – 2026-10-12 13:59",
+        "公告发布时间：2026-09-24 11:15:16"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18407",
+      "image": "data/images/fgo/fgo-18407-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18407-1.png",
+        "data/images/fgo/fgo-18407-2.png",
+        "data/images/fgo/fgo-18407-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18411",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Assassin」开幕前夕纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-04T19:00:00+08:00",
+      "end": "2026-10-22T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-04 19:00 – 2026-10-22 13:59",
+        "公告发布时间：2026-09-28 14:31:31"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18411",
+      "image": "data/images/fgo/fgo-18411-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18411-1.png",
+        "data/images/fgo/fgo-18411-2.png",
+        "data/images/fgo/fgo-18411-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18412",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「冠位戴冠战：Assassin」推荐召唤",
+      "subtitle": "雾都弃子 · 谜之女主角X · 酒吞童子（Assassin）",
+      "start": "2026-10-04T19:00:00+08:00",
+      "end": "2026-10-22T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "雾都弃子",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "谜之女主角X",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "酒吞童子（Assassin）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "&ldquo;山中老人&rdquo;",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-04 19:00 – 2026-10-22 13:59",
+        "公告发布时间：2026-09-28 14:43:04"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18412",
+      "image": "data/images/fgo/fgo-18412-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18412-1.png",
+        "data/images/fgo/fgo-18412-2.png",
+        "data/images/fgo/fgo-18412-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18413",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Ordeal Call II]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-06T19:00:00+08:00",
+      "end": "2026-12-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-06 19:00 – 2026-12-20 13:59",
+        "公告发布时间：2026-09-28 14:47:04"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18413",
+      "image": "data/images/fgo/fgo-18413-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18413-1.png",
+        "data/images/fgo/fgo-18413-2.png",
+        "data/images/fgo/fgo-18413-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18434",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「3300万下载纪念 梅塔特隆·贞德推荐召唤」",
+      "subtitle": "梅塔特隆·贞德 · 奔赴战场",
+      "start": "2026-10-08T19:00:00+08:00",
+      "end": "2026-10-22T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "梅塔特隆·贞德",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "奔赴战场",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-08 19:00 – 2026-10-22 13:59",
+        "公告发布时间：2026-09-30 20:00:51"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18434",
+      "image": "data/images/fgo/fgo-18434-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18434-1.png",
+        "data/images/fgo/fgo-18434-2.png",
+        "data/images/fgo/fgo-18434-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18439",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Ordeal Call III]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-13T19:00:00+08:00",
+      "end": "2026-12-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-13 19:00 – 2026-12-20 13:59",
+        "公告发布时间：2026-10-09 15:37:01"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18439",
+      "image": "data/images/fgo/fgo-18439-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18439-1.png",
+        "data/images/fgo/fgo-18439-2.png",
+        "data/images/fgo/fgo-18439-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18453",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Assassin」开幕",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-15T19:00:00+08:00",
+      "end": "2026-10-22T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-15 19:00 – 2026-10-22 13:59",
+        "公告发布时间：2026-10-13 11:03:33"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18453",
+      "image": "data/images/fgo/fgo-18453-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18453-1.png",
+        "data/images/fgo/fgo-18453-2.png",
+        "data/images/fgo/fgo-18453-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18454",
+      "game": "fgo",
+      "type": "event",
+      "title": "「万圣节2026」开幕前夕纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-17T19:00:00+08:00",
+      "end": "2026-10-31T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-17 19:00 – 2026-10-31 13:59",
+        "公告发布时间：2026-10-13 11:23:22"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18454",
+      "image": "data/images/fgo/fgo-18454-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18454-1.png",
+        "data/images/fgo/fgo-18454-2.png",
+        "data/images/fgo/fgo-18454-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18455",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project [Ordeal Call IV]通关应援纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-20T19:00:00+08:00",
+      "end": "2026-12-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-20 19:00 – 2026-12-20 13:59",
+        "公告发布时间：2026-10-13 11:36:10"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18455",
+      "image": "data/images/fgo/fgo-18455-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18455-1.png",
+        "data/images/fgo/fgo-18455-2.png",
+        "data/images/fgo/fgo-18455-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18493",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「终结·万圣节 ★5（SSR）伊丽莎白·巴托里推荐召唤」",
+      "subtitle": "伊丽莎白·巴托里 · 伊丽莎白·巴托里推荐召唤」◆ · 太空女主人",
+      "start": "2026-10-22T19:00:00+08:00",
+      "end": "2026-11-13T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "伊丽莎白·巴托里",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "伊丽莎白·巴托里推荐召唤」◆",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "太空女主人",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "伊丽莎白·巴托里」和3种限时概念礼装被推荐召唤！",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-22 19:00 – 2026-11-13 13:59",
+        "公告发布时间：2026-10-20 14:17:14"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18493",
+      "image": "data/images/fgo/fgo-18493-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18493-1.png",
+        "data/images/fgo/fgo-18493-2.png",
+        "data/images/fgo/fgo-18493-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18491",
+      "game": "fgo",
+      "type": "event",
+      "title": "「终结·万圣节2026~于南瓜星闪耀的歌姬~」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-22T19:00:00+08:00",
+      "end": "2026-11-12T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-22 19:00 – 2026-11-12 13:59",
+        "公告发布时间：2026-10-20 14:14:42"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18491",
+      "image": "data/images/fgo/fgo-18491-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18491-1.png",
+        "data/images/fgo/fgo-18491-2.png",
+        "data/images/fgo/fgo-18491-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18494",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「终结·万圣节2026推荐召唤2」",
+      "subtitle": "雅克·德·莫莱 · 阿喀琉斯 · 齐格飞",
+      "start": "2026-10-24T19:00:00+08:00",
+      "end": "2026-11-12T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "雅克·德·莫莱",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "阿喀琉斯",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "齐格飞",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "彭忒西勒亚（黄金国的Berserker）",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-24 19:00 – 2026-11-12 13:59",
+        "公告发布时间：2026-10-20 14:23:44"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18494",
+      "image": "data/images/fgo/fgo-18494-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18494-1.png",
+        "data/images/fgo/fgo-18494-2.png",
+        "data/images/fgo/fgo-18494-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18499",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project 第2部 终章临近！最终冲刺纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-27T19:00:00+08:00",
+      "end": "2026-12-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-27 19:00 – 2026-12-20 13:59",
+        "公告发布时间：2026-10-21 14:35:50"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18499",
+      "image": "data/images/fgo/fgo-18499-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18499-1.png",
+        "data/images/fgo/fgo-18499-2.png",
+        "data/images/fgo/fgo-18499-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18498",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「OVER THE SAME SKY-OCTOBER-」推荐召唤",
+      "subtitle": "比肖内 · 女教皇若安 · 夏洛克·福尔摩斯",
+      "start": "2026-10-27T19:00:00+08:00",
+      "end": "2026-11-10T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "比肖内",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "女教皇若安",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "夏洛克·福尔摩斯",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "布拉达曼特",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-27 19:00 – 2026-11-10 13:59",
+        "公告发布时间：2026-10-21 14:30:11"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18498",
+      "image": "data/images/fgo/fgo-18498-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18498-1.png",
+        "data/images/fgo/fgo-18498-2.png",
+        "data/images/fgo/fgo-18498-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18497",
+      "game": "fgo",
+      "type": "event",
+      "title": "使用特别兑换券交换获得「北海道·东北区域」的「英灵星行」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-27T19:00:00+08:00",
+      "end": "2026-11-10T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-27 19:00 – 2026-11-10 13:59",
+        "公告发布时间：2026-10-21 14:20:37"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18497",
+      "image": "data/images/fgo/fgo-18497-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18497-1.png",
+        "data/images/fgo/fgo-18497-2.png",
+        "data/images/fgo/fgo-18497-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18513",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「巡灵的祝祭 第14弹」推荐召唤",
+      "subtitle": "梵高 · 阿比盖尔·威廉姆斯 · 梵高」「★5（SSR）阿比盖尔·威廉姆斯」的2种",
+      "start": "2026-10-28T19:00:00+08:00",
+      "end": "2026-11-09T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "梵高",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "阿比盖尔·威廉姆斯",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "梵高」「★5（SSR）阿比盖尔·威廉姆斯」的2种",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "梵高」「★5（SSR）阿比盖尔·威廉姆斯」的卡池",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-28 19:00 – 2026-11-09 13:59",
+        "公告发布时间：2026-10-26 14:22:35"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18513",
+      "image": "data/images/fgo/fgo-18513-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18513-1.png",
+        "data/images/fgo/fgo-18513-2.png",
+        "data/images/fgo/fgo-18513-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18512",
+      "game": "fgo",
+      "type": "event",
+      "title": "「巡灵的祝祭 第14弹」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-28T19:00:00+08:00",
+      "end": "2026-11-14T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-28 19:00 – 2026-11-14 13:59",
+        "公告发布时间：2026-10-26 14:17:49"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18512",
+      "image": "data/images/fgo/fgo-18512-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18512-1.png",
+        "data/images/fgo/fgo-18512-2.png",
+        "data/images/fgo/fgo-18512-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18514",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project第2部 终章将近！最终倒计时纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-10-28T19:00:00+08:00",
+      "end": "2026-12-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-10-28 19:00 – 2026-12-20 13:59",
+        "公告发布时间：2026-10-26 14:29:29"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18514",
+      "image": "data/images/fgo/fgo-18514-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18514-1.png",
+        "data/images/fgo/fgo-18514-2.png",
+        "data/images/fgo/fgo-18514-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18500",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「终结·万圣节2026推荐召唤3」",
+      "subtitle": "刑部姬（Assassin） · 弗拉德三世",
+      "start": "2026-10-28T19:00:00+08:00",
+      "end": "2026-11-06T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "刑部姬（Assassin）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "弗拉德三世",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-10-28 19:00 – 2026-11-06 13:59",
+        "公告发布时间：2026-10-21 14:38:43"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18500",
+      "image": "data/images/fgo/fgo-18500-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18500-1.png",
+        "data/images/fgo/fgo-18500-2.png",
+        "data/images/fgo/fgo-18500-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18534",
+      "game": "fgo",
+      "type": "event",
+      "title": "「全世界1亿下载突破纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-01T04:00:00+08:00",
+      "end": "2026-11-08T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-01 04:00 – 2026-11-08 03:59",
+        "公告发布时间：2026-10-30 18:48:20"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18534",
+      "image": "data/images/fgo/fgo-18534-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18534-1.png",
+        "data/images/fgo/fgo-18534-2.png",
+        "data/images/fgo/fgo-18534-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18523",
+      "game": "fgo",
+      "type": "banner",
+      "title": "Fate/Grand Order「Road to 终章」第6章篇纪念 摩根推荐召唤",
+      "subtitle": "摩根 · 巅峰 · 情人节女巫们",
+      "start": "2026-11-03T19:00:00+08:00",
+      "end": "2026-11-10T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "摩根",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "巅峰",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "情人节女巫们",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "摩根」",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-03 19:00 – 2026-11-10 13:59",
+        "公告发布时间：2026-10-28 14:34:04"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18523",
+      "image": "data/images/fgo/fgo-18523-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18523-1.png",
+        "data/images/fgo/fgo-18523-2.png",
+        "data/images/fgo/fgo-18523-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18522",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project第2部 终章即将到来！第2部回顾纪念活动 ～第6章篇～」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-03T19:00:00+08:00",
+      "end": "2026-11-10T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-03 19:00 – 2026-11-10 13:59",
+        "公告发布时间：2026-10-28 14:32:01"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18522",
+      "image": "data/images/fgo/fgo-18522-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18522-1.png",
+        "data/images/fgo/fgo-18522-2.png",
+        "data/images/fgo/fgo-18522-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18548",
+      "game": "fgo",
+      "type": "event",
+      "title": "「复刻 从漫画了解！Fate/Grand Order联动活动友情点召唤」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-05T19:00:00+08:00",
+      "end": "2026-11-13T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-05 19:00 – 2026-11-13 13:59",
+        "公告发布时间：2026-11-03 14:05:44"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18548",
+      "image": "data/images/fgo/fgo-18548-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18548-1.png",
+        "data/images/fgo/fgo-18548-2.png",
+        "data/images/fgo/fgo-18548-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18547",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「岸波白野友情点推荐召唤」",
+      "subtitle": "国服推荐召唤",
+      "start": "2026-11-05T19:00:00+08:00",
+      "end": "2026-11-13T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-05 19:00 – 2026-11-13 13:59",
+        "公告发布时间：2026-11-03 14:04:26"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18547",
+      "image": "data/images/fgo/fgo-18547-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18547-1.png",
+        "data/images/fgo/fgo-18547-2.png",
+        "data/images/fgo/fgo-18547-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18545",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Lancer」&「冠位戴冠战：Extra」风暴罐消耗0！纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-05T19:00:00+08:00",
+      "end": "2026-11-13T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-05 19:00 – 2026-11-13 13:59",
+        "公告发布时间：2026-11-03 13:58:37"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18545",
+      "image": "data/images/fgo/fgo-18545-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18545-1.png",
+        "data/images/fgo/fgo-18545-2.png",
+        "data/images/fgo/fgo-18545-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18546",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「冠位戴冠战：Lancer」&「冠位戴冠战：Extra」推荐召唤",
+      "subtitle": "梵高 · 阿比盖尔·威廉姆斯 · 雅克·德·莫莱",
+      "start": "2026-11-05T19:00:00+08:00",
+      "end": "2026-11-13T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "梵高",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "阿比盖尔·威廉姆斯",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "雅克·德·莫莱",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "梅柳齐娜（Lancer）（妖精骑士兰斯洛特）",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-05 19:00 – 2026-11-13 13:59",
+        "公告发布时间：2026-11-03 14:02:51"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18546",
+      "image": "data/images/fgo/fgo-18546-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18546-1.png",
+        "data/images/fgo/fgo-18546-2.png",
+        "data/images/fgo/fgo-18546-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18542",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Archer」开幕前夕纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-05T19:00:00+08:00",
+      "end": "2026-11-21T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-05 19:00 – 2026-11-21 13:59",
+        "公告发布时间：2026-11-03 13:15:59"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18542",
+      "image": "data/images/fgo/fgo-18542-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18542-1.png",
+        "data/images/fgo/fgo-18542-2.png",
+        "data/images/fgo/fgo-18542-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18543",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「冠位戴冠战：Archer」推荐召唤",
+      "subtitle": "图坦卡蒙 · 图坦卡蒙」的圣肖像和战斗形象变为第2阶段 · 图坦卡蒙」后",
+      "start": "2026-11-05T19:00:00+08:00",
+      "end": "2026-11-21T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "图坦卡蒙",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "图坦卡蒙」的圣肖像和战斗形象变为第2阶段",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "图坦卡蒙」后",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "图坦卡蒙」的『灵基解放关卡』将在「幕间物语」中登",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-05 19:00 – 2026-11-21 13:59",
+        "公告发布时间：2026-11-03 13:49:23"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18543",
+      "image": "data/images/fgo/fgo-18543-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18543-1.png",
+        "data/images/fgo/fgo-18543-2.png",
+        "data/images/fgo/fgo-18543-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18566",
+      "game": "fgo",
+      "type": "event",
+      "title": "「全世界1亿下载突破纪念活动」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-07T20:00:00+08:00",
+      "end": "2026-11-21T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-07 20:00 – 2026-11-21 13:59",
+        "公告发布时间：2026-11-06 19:32:29"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18566",
+      "image": "data/images/fgo/fgo-18566-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18566-1.png",
+        "data/images/fgo/fgo-18566-2.png",
+        "data/images/fgo/fgo-18566-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18567",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「全世界1亿下载纪念推荐召唤」",
+      "subtitle": "梅林 · 一夜之梦 · &ldquo;山中老人&rdquo;",
+      "start": "2026-11-07T20:00:00+08:00",
+      "end": "2026-11-21T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "梅林",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "一夜之梦",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "&ldquo;山中老人&rdquo;",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "埃列什基伽勒（Lancer）",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-07 20:00 – 2026-11-21 13:59",
+        "公告发布时间：2026-11-06 19:43:30"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18567",
+      "image": "data/images/fgo/fgo-18567-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18567-1.png",
+        "data/images/fgo/fgo-18567-2.png",
+        "data/images/fgo/fgo-18567-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18562",
+      "game": "fgo",
+      "type": "banner",
+      "title": "Fate/Grand Order「Road to 终章」第7章篇纪念 特斯卡特利波卡推荐召唤",
+      "subtitle": "特斯卡特利波卡 · 变幻莫测 · 夏日小憩",
+      "start": "2026-11-10T19:00:00+08:00",
+      "end": "2026-11-17T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "特斯卡特利波卡",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "变幻莫测",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "夏日小憩",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "法老巧克力",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-10 19:00 – 2026-11-17 13:59",
+        "公告发布时间：2026-11-06 16:05:05"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18562",
+      "image": "data/images/fgo/fgo-18562-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18562-1.png",
+        "data/images/fgo/fgo-18562-2.png",
+        "data/images/fgo/fgo-18562-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18561",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project第2部 终章即将到来！第2部回顾纪念活动 ～第7章篇～」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-10T19:00:00+08:00",
+      "end": "2026-11-17T18:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-10 19:00 – 2026-11-17 18:59",
+        "公告发布时间：2026-11-06 16:03:20"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18561",
+      "image": "data/images/fgo/fgo-18561-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18561-1.png",
+        "data/images/fgo/fgo-18561-2.png",
+        "data/images/fgo/fgo-18561-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18579",
+      "game": "fgo",
+      "type": "event",
+      "title": "赠送使用「Fate/Grand Order 藤丸立香想不明白」Season4主视觉图的纪念概念礼装",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-13T19:00:00+08:00",
+      "end": "2026-11-21T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-13 19:00 – 2026-11-21 03:59",
+        "公告发布时间：2026-11-11 11:23:38"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18579",
+      "image": "data/images/fgo/fgo-18579-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18579-1.png"
+      ]
+    },
+    {
+      "id": "fgo-18578",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Archer」开幕",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-13T19:00:00+08:00",
+      "end": "2026-11-20T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-13 19:00 – 2026-11-20 13:59",
+        "公告发布时间：2026-11-11 11:19:23"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18578",
+      "image": "data/images/fgo/fgo-18578-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18578-1.png",
+        "data/images/fgo/fgo-18578-2.png",
+        "data/images/fgo/fgo-18578-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18580",
+      "game": "fgo",
+      "type": "event",
+      "title": "11月16日（周一），上线3700日纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-16T04:00:00+08:00",
+      "end": "2026-11-17T03:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-16 04:00 – 2026-11-17 03:59",
+        "公告发布时间：2026-11-11 11:33:05"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18580",
+      "image": "data/images/fgo/fgo-18580-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18580-1.png",
+        "data/images/fgo/fgo-18580-2.png",
+        "data/images/fgo/fgo-18580-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18582",
+      "game": "fgo",
+      "type": "banner",
+      "title": "Fate/Grand Order「Road to 终章」奏章I篇纪念 美杜莎（Saber）推荐召唤",
+      "subtitle": "美杜莎（Saber） · 美杜莎（Saber）」",
+      "start": "2026-11-17T19:00:00+08:00",
+      "end": "2026-11-24T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "美杜莎（Saber）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "美杜莎（Saber）」",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-17 19:00 – 2026-11-24 13:59",
+        "公告发布时间：2026-11-11 11:36:21"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18582",
+      "image": "data/images/fgo/fgo-18582-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18582-1.png",
+        "data/images/fgo/fgo-18582-2.png",
+        "data/images/fgo/fgo-18582-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18581",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project第2部 终章即将到来！第2部回顾纪念活动 ～奏章I篇～」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-17T19:00:00+08:00",
+      "end": "2026-11-24T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-17 19:00 – 2026-11-24 13:59",
+        "公告发布时间：2026-11-11 11:34:37"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18581",
+      "image": "data/images/fgo/fgo-18581-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18581-1.png",
+        "data/images/fgo/fgo-18581-2.png",
+        "data/images/fgo/fgo-18581-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18605",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Rider」&「冠位戴冠战：Assassin」风暴罐消耗0！纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-21T17:00:00+08:00",
+      "end": "2026-11-28T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-21 17:00 – 2026-11-28 13:59",
+        "公告发布时间：2026-11-17 11:48:45"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18605",
+      "image": "data/images/fgo/fgo-18605-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18605-1.png",
+        "data/images/fgo/fgo-18605-2.png",
+        "data/images/fgo/fgo-18605-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18606",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「哈贝特洛特友情点推荐召唤」",
+      "subtitle": "国服推荐召唤",
+      "start": "2026-11-21T17:00:00+08:00",
+      "end": "2026-11-28T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-21 17:00 – 2026-11-28 13:59",
+        "公告发布时间：2026-11-17 11:51:04"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18606",
+      "image": "data/images/fgo/fgo-18606-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18606-1.png",
+        "data/images/fgo/fgo-18606-2.png",
+        "data/images/fgo/fgo-18606-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18604",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「冠位戴冠战：Rider」&「冠位戴冠战：Assassin」推荐召唤",
+      "subtitle": "武田信玄（武田晴信） · 武田晴信 · 武田信玄",
+      "start": "2026-11-21T17:00:00+08:00",
+      "end": "2026-11-28T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "武田信玄（武田晴信）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "武田晴信",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "武田信玄",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "特斯卡特利波卡",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-21 17:00 – 2026-11-28 13:59",
+        "公告发布时间：2026-11-17 11:29:21"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18604",
+      "image": "data/images/fgo/fgo-18604-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18604-1.png",
+        "data/images/fgo/fgo-18604-2.png",
+        "data/images/fgo/fgo-18604-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18618",
+      "game": "fgo",
+      "type": "event",
+      "title": "使用特别兑换券交换获得「关西区域」的「英灵星行」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-24T00:00:00+08:00",
+      "end": "2026-12-08T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-24 00:00 – 2026-12-08 13:59",
+        "公告发布时间：2026-11-20 14:20:07"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18618",
+      "image": "data/images/fgo/fgo-18618-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18618-1.png",
+        "data/images/fgo/fgo-18618-2.png",
+        "data/images/fgo/fgo-18618-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18619",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「OVER THE SAME SKY-NOVEMBER-」推荐召唤",
+      "subtitle": "宫本武藏（Saber） · 伊什塔尔（Archer） · 埃列什基伽勒（Lancer）",
+      "start": "2026-11-24T00:00:00+08:00",
+      "end": "2026-12-08T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "宫本武藏（Saber）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "伊什塔尔（Archer）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "埃列什基伽勒（Lancer）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "安德洛墨达",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-24 00:00 – 2026-12-08 13:59",
+        "公告发布时间：2026-11-20 14:23:09"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18619",
+      "image": "data/images/fgo/fgo-18619-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18619-1.png",
+        "data/images/fgo/fgo-18619-2.png",
+        "data/images/fgo/fgo-18619-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18621",
+      "game": "fgo",
+      "type": "banner",
+      "title": "Fate/Grand Order「Road to 终章」奏章II篇纪念 岩窟王 基督山推荐召唤",
+      "subtitle": "岩窟王 基督山 · 侦探基督山～未来邂逅篇～ · 岩窟王",
+      "start": "2026-11-24T19:00:00+08:00",
+      "end": "2026-12-01T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "岩窟王 基督山",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "侦探基督山～未来邂逅篇～",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "岩窟王",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "侦探基督山～未来邂逅篇～」为附带语音的概念礼装",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-24 19:00 – 2026-12-01 13:59",
+        "公告发布时间：2026-11-20 14:26:15"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18621",
+      "image": "data/images/fgo/fgo-18621-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18621-1.png",
+        "data/images/fgo/fgo-18621-2.png",
+        "data/images/fgo/fgo-18621-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18620",
+      "game": "fgo",
+      "type": "event",
+      "title": "「Final Order Project第2部 终章即将到来！第2部回顾纪念活动 ～奏章II篇～」",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-24T19:00:00+08:00",
+      "end": "2026-12-01T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-24 19:00 – 2026-12-01 13:59",
+        "公告发布时间：2026-11-20 14:24:46"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18620",
+      "image": "data/images/fgo/fgo-18620-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18620-1.png",
+        "data/images/fgo/fgo-18620-2.png",
+        "data/images/fgo/fgo-18620-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18623",
+      "game": "fgo",
+      "type": "banner",
+      "title": "「冠位戴冠战：Caster」推荐召唤",
+      "subtitle": "救世主梣（雨之魔女梣） · 雨之魔女梣 · 救世主梣",
+      "start": "2026-11-24T19:00:00+08:00",
+      "end": "2026-12-10T13:59:00+08:00",
+      "banners": [
+        {
+          "name": "救世主梣（雨之魔女梣）",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "雨之魔女梣",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "救世主梣",
+          "tag": "5★ SSR"
+        },
+        {
+          "name": "小野小町",
+          "tag": "5★ SSR"
+        }
+      ],
+      "details": [
+        "时间：2026-11-24 19:00 – 2026-12-10 13:59",
+        "公告发布时间：2026-11-20 14:31:57"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18623",
+      "image": "data/images/fgo/fgo-18623-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18623-1.png",
+        "data/images/fgo/fgo-18623-2.png",
+        "data/images/fgo/fgo-18623-3.png"
+      ]
+    },
+    {
+      "id": "fgo-18622",
+      "game": "fgo",
+      "type": "event",
+      "title": "「冠位戴冠战：Caster」开幕前夕纪念活动",
+      "subtitle": "国服限时活动",
+      "start": "2026-11-24T19:00:00+08:00",
+      "end": "2026-12-10T13:59:00+08:00",
+      "banners": [],
+      "details": [
+        "时间：2026-11-24 19:00 – 2026-12-10 13:59",
+        "公告发布时间：2026-11-20 14:28:50"
+      ],
+      "note": "FGO 国服官网公告；具体时间以官方为准。",
+      "source": "https://game.bilibili.com/fgo/news.html#!news/0/1/18622",
+      "image": "data/images/fgo/fgo-18622-1.png",
+      "gallery": [
+        "data/images/fgo/fgo-18622-1.png",
+        "data/images/fgo/fgo-18622-2.png",
+        "data/images/fgo/fgo-18622-3.png"
+      ]
+    }
+  ]
+}

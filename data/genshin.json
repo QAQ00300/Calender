@@ -1,6 +1,6 @@
 {
   "game": "genshin",
-  "updated": "2026-11-18",
+  "updated": "2026-11-20",
   "events": [
     {
       "id": "gi-72-preview",
@@ -53,11 +53,11 @@
         },
         {
           "name": "兹白",
-          "tag": "5★ · 下半"
+          "tag": "5★ 岩 · 下半"
         },
         {
           "name": "莉奈娅",
-          "tag": "5★ · 下半"
+          "tag": "5★ 岩 · 下半"
         }
       ],
       "note": "上半祈愿 11/04 06:00 – 11/24 17:59；下半祈愿 11/24 18:00 – 12/15 14:59。7.3 版本预计 12/16 更新。",
@@ -81,7 +81,7 @@
           "tag": "5★ 水"
         }
       ],
-      "note": "同期武器池：朏魄含光、霜结的誓金枝。",
+      "note": "上半武器池信息以官方公告为准；朏魄含光、霜结的誓金枝为下半武器池。",
       "source": "https://genshin.hoyoverse.com/en/news/detail/167139"
     },
     {
@@ -111,21 +111,80 @@
       "game": "genshin",
       "type": "banner",
       "title": "7.2 下半祈愿",
-      "subtitle": "兹白 · 莉奈娅",
+      "subtitle": "「华黍由仪」兹白 · 「呀吼吼博物志」莉奈娅",
       "start": "2026-11-24T18:00:00+08:00",
       "end": "2026-12-15T14:59:00+08:00",
       "banners": [
         {
           "name": "兹白",
-          "tag": "5★"
+          "tag": "5★ 岩"
         },
         {
           "name": "莉奈娅",
-          "tag": "5★"
+          "tag": "5★ 岩"
         }
       ],
-      "note": "上半卡池 11/24 17:59 结束，18:00 切换至下半。",
-      "source": "https://www.miyoushe.com/ys/article/76090473"
+      "image": "data/images/genshin-gi-72-p2-1-523c15eb.png",
+      "gallery": [
+        "data/images/genshin-gi-72-p2-1-523c15eb.png",
+        "data/images/genshin-gi-72-p2-2-4bc6017c.png",
+        "data/images/genshin-gi-72-p2-3-5007b2f2.png",
+        "data/images/genshin-gi-72-p2-4-cdbc01d9.png"
+      ],
+      "details": [
+        "祈愿时间：2026/11/24 18:00 – 2026/12/15 14:59",
+        "「华黍由仪」：限定 5★ 兹白（岩·单手剑）概率提升",
+        "「呀吼吼博物志」：限定 5★ 莉奈娅（岩·弓）概率提升",
+        "4★ 概率提升：叶洛亚（岩）、爱诺（水）、凝光（岩）",
+        "同期「神铸赋形」武器池：朏魄含光（单手剑）、霜结的誓金枝（弓）"
+      ],
+      "note": "上半卡池 11/24 17:59 结束，18:00 切换至下半；两期角色祈愿保底共享。",
+      "source": "https://genshin.hoyoverse.com/m/en/news/detail/167370"
+    },
+    {
+      "id": "gi-72-chronicled",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.2 集录祈愿「炎天铸名」",
+      "subtitle": "自选 5★ 定轨 · 纳塔角色与武器",
+      "start": "2026-11-24T18:00:00+08:00",
+      "end": "2026-12-15T14:59:00+08:00",
+      "banners": [
+        {
+          "name": "瓦雷莎",
+          "tag": "5★ 雷"
+        },
+        {
+          "name": "恰斯卡",
+          "tag": "5★ 风"
+        },
+        {
+          "name": "希诺宁",
+          "tag": "5★ 岩"
+        },
+        {
+          "name": "玛拉妮",
+          "tag": "5★ 水"
+        },
+        {
+          "name": "基尼奇",
+          "tag": "5★ 草"
+        }
+      ],
+      "image": "data/images/genshin-gi-72-chronicled-1-67c93d33.png",
+      "gallery": [
+        "data/images/genshin-gi-72-chronicled-1-67c93d33.png",
+        "data/images/genshin-gi-72-chronicled-2-ca8bf035.png"
+      ],
+      "details": [
+        "祈愿时间：2026/11/24 18:00 – 2026/12/15 14:59",
+        "可从本期所有 5★ 物品中自选并定轨 1 个 5★ 角色或武器",
+        "5★ 角色：瓦雷莎 / 恰斯卡 / 希诺宁 / 玛拉妮 / 基尼奇",
+        "5★ 武器：溢彩心念 / 星鹫赤羽 / 岩峰巡歌 / 冲浪时光 / 山王长牙",
+        "集录祈愿与溯光祈愿的保底次数共享，与其他祈愿相互独立"
+      ],
+      "note": "「炎天铸名」为集录祈愿，与下半角色祈愿同期开放。",
+      "source": "https://www.miyoushe.com/ys/article/79660855"
     },
     {
       "id": "gi-72-block",
@@ -149,6 +208,77 @@
       "requirements": "冒险等阶≥20；完成魔神任务序章·第三幕「巨龙与自由之歌」",
       "note": "千星奇域限时活动，活动图见上方。",
       "source": "https://www.miyoushe.com/ys/article/79640409"
+    },
+    {
+      "id": "gi-72-guard",
+      "game": "genshin",
+      "type": "event",
+      "title": "「全域镇卫·逆捍谬罚」",
+      "subtitle": "7.2 版本主题活动 · 自选邀请 4★",
+      "start": "2026-11-04T06:00:00+08:00",
+      "end": "2026-12-16T05:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/genshin-gi-72-guard-1-ccf72283.jpg",
+      "gallery": [
+        "data/images/genshin-gi-72-guard-1-ccf72283.jpg"
+      ],
+      "details": [
+        "活动时间：7.2 版本期间持续开放",
+        "完成「急刻进救」「攻固空权」「定策巡剿」三种驰援行动，削减「圣土化」威胁值",
+        "威胁值降至一定程度后可自选邀请 1 名 4★ 角色：安柏 / 香菱 / 托马 / 柯莱 / 琳妮特 / 卡齐娜 / 爱诺 / 阿罗夏"
+      ],
+      "rewards": "原石、智识之冕、自选邀请 4★ 角色",
+      "requirements": "冒险等阶≥20；完成魔神任务第七章·第四幕「往冥府的安魂歌」",
+      "note": "与魔神任务关联度较高，可在推进第七章·第六幕途中自然开启。",
+      "source": "https://ys.mihoyo.com/main/m/news/detail/167168"
+    },
+    {
+      "id": "gi-72-quest",
+      "game": "genshin",
+      "type": "event",
+      "title": "「坏灭肇始之时」魔神任务限时奖励",
+      "subtitle": "完成第七章第五、六幕领取额外奖励",
+      "start": "2026-11-04T06:00:00+08:00",
+      "end": "2026-12-15T14:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/genshin-gi-72-quest-1-edbbe612.jpg",
+      "gallery": [
+        "data/images/genshin-gi-72-quest-1-edbbe612.jpg"
+      ],
+      "details": [
+        "获取奖励时限：7.2 版本更新后 – 2026/12/15 14:59",
+        "版本更新后永久新增魔神任务第七章·第五幕与第六幕",
+        "在时限内完成相应魔神任务，可额外获得原石、角色突破素材、角色培养素材、至冬区域特产等奖励"
+      ],
+      "rewards": "原石、角色突破素材、角色培养素材、至冬区域特产",
+      "requirements": "冒险等阶≥18；完成魔神任务第七章·第四幕「往冥府的安魂歌」",
+      "note": "魔神任务永久开放，限时奖励仅至 12/15 14:59。",
+      "source": "https://ys.mihoyo.com/main/m/news/detail/167169"
+    },
+    {
+      "id": "gi-72-explore",
+      "game": "genshin",
+      "type": "event",
+      "title": "「晶石如林生长之地」区域探索奖励",
+      "subtitle": "至冬新区域 · 限时探索奖励",
+      "start": "2026-11-04T06:00:00+08:00",
+      "end": "2027-01-26T14:59:00+08:00",
+      "banners": [],
+      "codes": [],
+      "image": "data/images/genshin-gi-72-explore-1-a7c0ca1a.jpg",
+      "gallery": [
+        "data/images/genshin-gi-72-explore-1-a7c0ca1a.jpg"
+      ],
+      "details": [
+        "获取奖励时限：7.2 版本更新后 – 2027/01/26 14:59",
+        "版本更新后开启全新至冬区域：新基捷城、如翼之峰",
+        "在时限内完成相应探索任务，可额外获得原石 ×400"
+      ],
+      "rewards": "原石 ×400",
+      "note": "区域探索限时奖励，超时后仍可探索但无法领取额外原石。",
+      "source": "https://ys.mihoyo.com/main/m/news/detail/167170"
     }
   ]
 }

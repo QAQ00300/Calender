@@ -13,12 +13,14 @@ const IMG_ROOT = path.join(ROOT, 'data', 'images', 'growth', 'genshin');
 const AVATAR_DIR = path.join(IMG_ROOT, 'avatars');
 const MATERIAL_DIR = path.join(IMG_ROOT, 'materials');
 const TALENT_DIR = path.join(IMG_ROOT, 'talents');
+const WEAPON_DIR = path.join(IMG_ROOT, 'weapons');
 const UA = 'GameCalendarGrowth/1.0 (local; miyoushe obc)';
 const CONCURRENCY = 6;
 
 fs.mkdirSync(AVATAR_DIR, { recursive: true });
 fs.mkdirSync(MATERIAL_DIR, { recursive: true });
 fs.mkdirSync(TALENT_DIR, { recursive: true });
+fs.mkdirSync(WEAPON_DIR, { recursive: true });
 
 const data = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
 
@@ -83,7 +85,7 @@ async function mapLimit(items, limit, fn) {
 }
 
 async function main() {
-  const stats = { avatars: 0, materials: 0, talents: 0, failed: 0 };
+  const stats = { avatars: 0, materials: 0, talents: 0, recommendations: 0, failed: 0 };
   const operators = data.operators || [];
 
   async function localizeMats(mats) {
@@ -122,10 +124,20 @@ async function main() {
       await localizeMats(talent.materials);
       for (const level of talent.levels || []) await localizeMats(level.materials);
     }
+    for (const reco of op.recommendedWeapons || []) {
+      const icon = await localize(reco.icon, WEAPON_DIR, 'gs-weapon');
+      if (icon) {
+        reco.icon = icon;
+        stats.recommendations++;
+      } else {
+        delete reco.icon;
+        stats.failed++;
+      }
+    }
   });
 
   fs.writeFileSync(JSON_PATH, JSON.stringify(data, null, 2) + '\n', 'utf8');
-  console.log(`完成：头像 ${stats.avatars} 个，天赋图标 ${stats.talents} 个，材料图标引用 ${stats.materials} 次，失败 ${stats.failed} 次`);
+  console.log(`完成：头像 ${stats.avatars} 个，天赋图标 ${stats.talents} 个，推荐武器图标 ${stats.recommendations} 个，材料图标引用 ${stats.materials} 次，失败 ${stats.failed} 次`);
   console.log(`目录：${IMG_ROOT}`);
 }
 

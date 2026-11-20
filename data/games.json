@@ -41,6 +41,13 @@
       "short": "鸣潮",
       "color": "#4ec9ff",
       "file": "wuwa.json"
+    },
+    {
+      "id": "fgo",
+      "name": "Fate/Grand Order",
+      "short": "FGO",
+      "color": "#d8b26a",
+      "file": "fgo.json"
     }
   ],
   "types": {

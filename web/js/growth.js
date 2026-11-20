@@ -64,10 +64,13 @@
 
   var state = {
     game: 'arknights', q: '', rarity: 'all', cls: 'all',
-    element: 'all', weapon: 'all', selected: '', sort: 'release-desc'
+    element: 'all', weapon: 'all', selected: '', sort: 'release-desc',
+    genshinMode: 'characters', weaponRarity: 'all', weaponType: 'all', weaponSort: 'rarity-desc'
   };
   var DATA = {};
   var ERRORS = {};
+  var WEAPONS = null;
+  var WEAPON_ERROR = '';
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (m) {
@@ -183,6 +186,25 @@
 
   function renderGenshin() {
     var main = document.getElementById('gMain');
+    main.innerHTML = '<div class="g-mode">' +
+      '<button class="g-mode-btn' + (state.genshinMode === 'characters' ? ' on' : '') + '" data-mode="characters">角色</button>' +
+      '<button class="g-mode-btn' + (state.genshinMode === 'weapons' ? ' on' : '') + '" data-mode="weapons">武器</button>' +
+      '</div><div id="gGenshinBody"></div>';
+    main.querySelectorAll('[data-mode]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        state.genshinMode = b.getAttribute('data-mode');
+        state.selected = '';
+        state.q = '';
+        closeDetail();
+        renderMain();
+      });
+    });
+    if (state.genshinMode === 'weapons') renderGenshinWeapons();
+    else renderGenshinCharacters();
+  }
+
+  function renderGenshinCharacters() {
+    var main = document.getElementById('gGenshinBody');
     main.innerHTML = '<div class="g-layout">' +
       '<aside class="g-side"><div class="g-tools">' +
       '<input class="g-search" id="gSearch" placeholder="搜索角色名…" autocomplete="off">' +
@@ -233,7 +255,21 @@
       if (isMobile()) openDetail();
     });
     document.getElementById('gDetail').addEventListener('click', function (ev) {
-      if (ev.target.closest('[data-close-detail]')) closeDetail();
+      if (ev.target.closest('[data-close-detail]')) {
+        closeDetail();
+        return;
+      }
+      var reco = ev.target.closest('[data-reco-weapon]');
+      if (reco) {
+        state.genshinMode = 'weapons';
+        state.selected = reco.getAttribute('data-reco-weapon');
+        state.q = '';
+        state.weaponRarity = 'all';
+        state.weaponType = 'all';
+        closeDetail();
+        renderMain();
+        if (isMobile()) openDetail();
+      }
     });
     var bd = document.getElementById('gBackdrop2');
     if (bd) bd.addEventListener('click', closeDetail);
@@ -372,7 +408,186 @@
       html += '<div class="g-sec">天赋升级材料</div>' +
         '<div class="g-warn">观测枢未收录该角色的天赋升级材料，可能是旅行者或特殊条目；这里不做补猜。</div>';
     }
+    if (o.recommendedWeapons && o.recommendedWeapons.length) {
+      html += '<div class="g-sec">推荐武器</div><div class="g-reco-list">' +
+        o.recommendedWeapons.map(function (r) {
+          var exists = WEAPONS && WEAPONS.weapons.some(function (w) { return w.name === r.name; });
+          return '<div class="g-reco' + (exists ? ' clickable' : '') + '"' +
+            (exists ? ' data-reco-weapon="' + esc(r.name) + '"' : '') + '>' +
+            (r.icon
+              ? '<img class="g-reco-icon" src="' + esc(r.icon) + '" alt="' + esc(r.name) + '" loading="lazy" onerror="this.remove()">'
+              : '<span class="g-reco-icon"></span>') +
+            '<div class="g-reco-main"><b>' + esc(r.name) + '</b><p>' +
+            esc(r.reason || '观测枢未填写推荐理由') + '</p></div></div>';
+        }).join('') + '</div>';
+    }
     html += '<div class="g-warn" style="margin-top:16px">角色经验按 1 → 90 累计，经验书按大英雄的经验 20,000 经验/本折算；摩拉含升级与突破。天赋材料按 1 → 10 级累计，逐级含摩拉；三个天赋消耗相同，三项都升满则材料与摩拉 ×3；不含命之座。数据来自米游社观测枢。</div>';
+    el.innerHTML = html;
+  }
+
+  function renderGenshinWeapons() {
+    var host = document.getElementById('gGenshinBody');
+    if (WEAPON_ERROR) {
+      host.innerHTML = '<div class="g-notice"><div class="eyebrow">数据加载失败</div>' +
+        '<h2>读取不到 genshin-weapons.json</h2><p>' + esc(WEAPON_ERROR) + '</p></div>';
+      return;
+    }
+    if (!WEAPONS) {
+      host.innerHTML = '<div class="g-loading">正在读取武器数据…</div>';
+      return;
+    }
+    host.innerHTML = '<div class="g-layout">' +
+      '<aside class="g-side"><div class="g-tools">' +
+      '<input class="g-search" id="gSearch" placeholder="搜索武器名…" autocomplete="off">' +
+      '<div class="g-sort-row"><button class="g-sort" id="gSort">星级 ↓ 高→低</button><span class="g-count" id="gCount"></span></div>' +
+      '<div class="g-filters" id="gRarity"></div>' +
+      '<div class="g-filters" id="gWeaponType"></div>' +
+      '</div><div class="g-list" id="gList"></div></aside>' +
+      '<section class="g-detail" id="gDetail"></section>' +
+      '</div><div class="g-backdrop" id="gBackdrop2"></div>';
+
+    document.getElementById('gSearch').addEventListener('input', function (ev) {
+      state.q = ev.target.value.trim();
+      renderWeaponList();
+    });
+    document.getElementById('gSort').addEventListener('click', function () {
+      state.weaponSort = state.weaponSort === 'rarity-desc' ? 'rarity-asc' : 'rarity-desc';
+      renderWeaponSort();
+      renderWeaponList();
+    });
+    document.getElementById('gRarity').addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-rarity]');
+      if (!b) return;
+      state.weaponRarity = b.getAttribute('data-rarity');
+      renderWeaponFilters();
+      renderWeaponList();
+    });
+    document.getElementById('gWeaponType').addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-wtype]');
+      if (!b) return;
+      state.weaponType = b.getAttribute('data-wtype');
+      renderWeaponFilters();
+      renderWeaponList();
+    });
+    document.getElementById('gList').addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-op]');
+      if (!b) return;
+      state.selected = b.getAttribute('data-op');
+      markSelected();
+      renderWeaponDetail();
+      if (isMobile()) openDetail();
+    });
+    document.getElementById('gDetail').addEventListener('click', function (ev) {
+      if (ev.target.closest('[data-close-detail]')) closeDetail();
+    });
+    var bd = document.getElementById('gBackdrop2');
+    if (bd) bd.addEventListener('click', closeDetail);
+
+    renderWeaponFilters();
+    renderWeaponSort();
+    renderWeaponList();
+  }
+
+  function renderWeaponFilters() {
+    var list = WEAPONS.weapons;
+    var rarities = [5, 4, 3, 2, 1].filter(function (r) {
+      return list.some(function (w) { return w.rarity === r; });
+    });
+    var rEl = document.getElementById('gRarity');
+    if (rEl) {
+      rEl.innerHTML = '<button class="g-chip' + (state.weaponRarity === 'all' ? ' on' : '') + '" data-rarity="all">全部星级</button>' +
+        rarities.map(function (r) {
+          return '<button class="g-chip' + (state.weaponRarity === String(r) ? ' on' : '') + '" data-rarity="' + r + '">' + r + '★</button>';
+        }).join('');
+    }
+    var types = WEAPON_ORDER.filter(function (t) {
+      return list.some(function (w) { return w.type === t; });
+    });
+    var tEl = document.getElementById('gWeaponType');
+    if (tEl) {
+      tEl.innerHTML = '<button class="g-chip' + (state.weaponType === 'all' ? ' on' : '') + '" data-wtype="all">全部武器</button>' +
+        types.map(function (t) {
+          return '<button class="g-chip' + (state.weaponType === t ? ' on' : '') + '" data-wtype="' + esc(t) + '">' + esc(t) + '</button>';
+        }).join('');
+    }
+  }
+
+  function renderWeaponSort() {
+    var b = document.getElementById('gSort');
+    if (b) b.textContent = state.weaponSort === 'rarity-desc' ? '星级 ↓ 高→低' : '星级 ↑ 低→高';
+  }
+
+  function filteredWeapons() {
+    var q = state.q.toLowerCase();
+    return WEAPONS.weapons.filter(function (w) {
+      if (state.weaponRarity !== 'all' && w.rarity !== Number(state.weaponRarity)) return false;
+      if (state.weaponType !== 'all' && w.type !== state.weaponType) return false;
+      if (q && [w.name, w.type, w.attribute, w.obtain].join(' ').toLowerCase().indexOf(q) < 0) return false;
+      return true;
+    }).sort(function (a, b) {
+      var d = state.weaponSort === 'rarity-asc' ? a.rarity - b.rarity : b.rarity - a.rarity;
+      if (d) return d;
+      var ia = WEAPON_ORDER.indexOf(a.type);
+      var ib = WEAPON_ORDER.indexOf(b.type);
+      if (ia !== ib) return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+      return a.name.localeCompare(b.name, 'zh-Hans-CN');
+    });
+  }
+
+  function renderWeaponList() {
+    var list = filteredWeapons();
+    var countEl = document.getElementById('gCount');
+    if (countEl) countEl.textContent = list.length + ' 把';
+    if (!list.some(function (w) { return w.name === state.selected; })) {
+      state.selected = list.length ? list[0].name : '';
+    }
+    var el = document.getElementById('gList');
+    if (!el) return;
+    el.innerHTML = list.length ? list.map(function (w) {
+      return '<button class="g-item' + (w.name === state.selected ? ' on' : '') + '" data-op="' + esc(w.name) + '">' +
+        avatarHTML(w, 'g-avatar', rarityColor(w.rarity)) +
+        '<span class="g-item-main"><b>' + esc(w.name) + '</b><small>' +
+        esc(w.type || '未知') + (w.attribute ? ' · ' + esc(w.attribute) : '') +
+        '</small></span>' +
+        '<span class="g-stars" style="--rc:' + rarityColor(w.rarity) + '">' + stars(w.rarity) + '</span>' +
+        '</button>';
+    }).join('') : '<div class="g-empty-list">没有匹配的武器<br>试试清空搜索或切换筛选</div>';
+    renderWeaponDetail();
+  }
+
+  function renderWeaponDetail() {
+    var el = document.getElementById('gDetail');
+    if (!el) return;
+    var w = WEAPONS.weapons.find(function (x) { return x.name === state.selected; });
+    if (!w) {
+      el.innerHTML = '<div class="g-detail-empty">选择左侧武器查看材料</div>';
+      return;
+    }
+    var rc = rarityColor(w.rarity);
+    var sub = [w.attribute, w.obtain].filter(Boolean).join(' · ');
+    var html = '<div class="g-dhead"><div class="g-dhead-main">' +
+      avatarHTML(w, 'g-davatar', rc) +
+      '<div>' +
+      '<h2><span class="g-rarity" style="--rc:' + rc + '">' + stars(w.rarity) + '</span>' + esc(w.name) +
+      '<span class="g-class">' + esc(w.type || '未知') + '</span></h2>' +
+      '<div class="sub">' + (sub ? esc(sub) : '暂无标签') + '</div>' +
+      '</div></div><div style="display:flex;gap:7px;align-items:center">' +
+      '<a class="g-source" href="' + esc(w.url) + '" target="_blank" rel="noopener">观测枢页面 ↗</a>' +
+      '<button class="g-close" data-close-detail aria-label="关闭">×</button></div></div>' +
+      '<div class="g-meta"><span>1 → 90 总需求</span><span>突破材料</span><span>数据源：观测枢</span></div>' +
+      '<div class="g-sec">武器养成总需求（1 → 90）</div>' +
+      '<div class="g-mat-group">' + matChips(w.total) + '</div>' +
+      '<div class="g-sec">突破材料（按阶段）</div>';
+
+    if (w.ascensions && w.ascensions.length) {
+      html += '<div class="g-level-list">' + w.ascensions.map(function (a) {
+        return '<div class="g-level-card"><div class="g-level-head"><b>' + esc(a.phase) + ' 级突破</b></div>' +
+          '<div class="g-level-mats">' + matChips(a.materials) + '</div></div>';
+      }).join('') + '</div>';
+    } else {
+      html += '<div class="g-warn">观测枢未提供该武器的阶段突破材料。</div>';
+    }
+    html += '<div class="g-warn" style="margin-top:16px">总需求包含精锻用魔矿与摩拉；精炼消耗同名武器，未计入。数据来自米游社观测枢。</div>';
     el.innerHTML = html;
   }
 
@@ -665,7 +880,7 @@
     renderTabs();
     var main = document.getElementById('gMain');
     var calc = document.getElementById('gCalc');
-    var showCalc = state.game === 'genshin' && !!DATA.genshin;
+    var showCalc = state.game === 'genshin' && state.genshinMode === 'characters' && !!DATA.genshin;
     if (calc) calc.style.display = showCalc ? '' : 'none';
     if (ERRORS[state.game]) {
       main.innerHTML = '<div class="g-notice"><div class="eyebrow">数据加载失败</div>' +
@@ -716,6 +931,20 @@
       });
   }
 
+  function loadWeapons() {
+    return fetch('/data/growth/genshin-weapons.json')
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        WEAPONS = data;
+      })
+      .catch(function (err) {
+        WEAPON_ERROR = err.message;
+      });
+  }
+
   document.getElementById('gTabs').addEventListener('click', function (ev) {
     var b = ev.target.closest('[data-game]');
     if (!b) return;
@@ -725,6 +954,10 @@
     state.cls = 'all';
     state.element = 'all';
     state.weapon = 'all';
+    state.genshinMode = 'characters';
+    state.weaponRarity = 'all';
+    state.weaponType = 'all';
+    state.weaponSort = 'rarity-desc';
     state.selected = '';
     closeDetail();
     renderMain();
@@ -736,7 +969,8 @@
 
   Promise.all([
     loadGrowth('arknights', '/data/growth/arknights.json'),
-    loadGrowth('genshin', '/data/growth/genshin.json')
+    loadGrowth('genshin', '/data/growth/genshin.json'),
+    loadWeapons()
   ]).then(function () {
     updateSummary();
     renderCalculator();

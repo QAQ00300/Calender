@@ -234,11 +234,14 @@ def main():
          "是" if args.incremental else "否", "是" if args.dry_run else "否"), log_path)
 
     fetch_cmd = [node, "scripts/fetch.mjs"]
+    fgo_cmd = [node, "scripts/fetch-fgo.mjs"]
     image_cmd = [node, "scripts/fetch-images.mjs"]
     build_cmd = [node, "scripts/build.mjs"]
     growth_steps = [
         ("抓取原神角色材料", [node, "scripts/fetch-genshin-materials.mjs"], args.timeout),
         ("下载原神头像与材料图标", [node, "scripts/fetch-genshin-images.mjs"], args.timeout),
+        ("抓取原神武器材料", [node, "scripts/fetch-genshin-weapons.mjs"], args.timeout),
+        ("下载原神武器与材料图标", [node, "scripts/fetch-genshin-weapon-images.mjs"], args.timeout),
         ("抓取 PRTS 干员材料", [node, "scripts/fetch-arknights-materials.mjs"], args.timeout),
         ("下载干员头像与材料图标", [node, "scripts/fetch-arknights-images.mjs"], args.timeout),
     ]
@@ -247,20 +250,23 @@ def main():
         if not run_step("抓取公告候选", fetch_cmd, min(args.timeout, 600), log_path, args.dry_run):
             log("流水线中止：抓取公告候选失败", log_path)
             return 1
+        if not run_step("抓取 FGO 国服公告", fgo_cmd, min(args.timeout, 600), log_path, args.dry_run):
+            log("流水线中止：抓取 FGO 国服公告失败", log_path)
+            return 1
 
         run_update = True
         if args.incremental and not args.dry_run:
             report = detect_new_candidates(log_path)
             if report is not None and report["newCount"] == 0:
-                log("增量检测：没有新公告，跳过图片本地化与构建", log_path)
+                log("增量检测：米游社没有新公告，跳过图片本地化", log_path)
                 run_update = False
         if run_update:
             if not run_step("下载并本地化图片", image_cmd, args.timeout, log_path, args.dry_run):
                 log("流水线中止：下载并本地化图片失败", log_path)
                 return 1
-            if not run_step("构建 data.js", build_cmd, min(args.timeout, 180), log_path, args.dry_run):
-                log("流水线中止：构建 data.js 失败", log_path)
-                return 1
+        if not run_step("构建 data.js", build_cmd, min(args.timeout, 180), log_path, args.dry_run):
+            log("流水线中止：构建 data.js 失败", log_path)
+            return 1
 
     if include_growth:
         for name, command, timeout in growth_steps:
